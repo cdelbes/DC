@@ -1,0 +1,35 @@
+# Fiche site — parcelle Rodez (Aveyron)
+# À compléter au fur et à mesure. Les champs marqués REQUIS bloquent la suite de l'étude.
+
+site:
+  nom: "Dépôt couverture/étanchéité — Rodez"
+  commune: "Rodez"            # à confirmer (Rodez ou commune de Rodez Agglomération)
+  code_postal: "12000"        # à confirmer
+  adresse: null               # à compléter
+
+gps:
+  lat: null                   # REQUIS — point GPS fourni par Charles
+  lon: null                   # REQUIS
+
+cadastre:                     # rempli par scripts/get_parcelle.py
+  parcelle: null              # ex. "AB 123"
+  surface_m2: null
+  zone_plu: null              # ex. "UX" — via Géoportail de l'Urbanisme
+  servitudes: []
+
+raccordement:
+  prm_existant: null          # n° PRM/PDL sur facture du dépôt
+  puissance_souscrite_kva: null
+  poste_source: null          # via Caparéseau
+  pre_etude_enedis:           # coût/délai par palier (doc 02)
+    - { palier_kva: 250, cout_eur: null, delai_mois: null }
+    - { palier_kva: 1000, cout_eur: null, delai_mois: null }
+    - { palier_kva: 3000, cout_eur: null, delai_mois: null }
+
+foncier:
+  proprietaire: "père de Charles"
+  projet_actuel: "vente à une entreprise du BTP"
+  offre_btp_eur: null         # valeur de référence pour le comparatif du BP
+  bati_existant:
+    present: true             # dépôt — surface et état à préciser
+    surface_m2: null
