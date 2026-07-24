@@ -70,6 +70,41 @@ est sans enjeu, c'est précisément l'intérêt de ce site.
 | Lignes électriques / canalisations | à vérifier dans les annexes servitudes (I4…) du PLUi | **[À CONFIRMER]** |
 | ZAN / artificialisation | parcelle **déjà artificialisée** (dépôt + cour) → aucune consommation d'espace naturel : dossier favorable | acquis |
 
+## 3 bis. Démolition du hangar et amiante (point structurant)
+
+Le projet prévoit la **démolition du hangar existant**, dont la **toiture est amiantée**
+(fibrociment probable — plaques ondulées, très courant sur ce type de dépôt). C'est à la
+fois une contrainte réglementaire et **un levier de valeur** dans la négociation foncière.
+
+**Obligations avant démolition :**
+
+1. **Repérage amiante avant démolition (RAAT)** obligatoire (Code du travail R.4412-97 et s.,
+   norme NF X46-020) par un diagnostiqueur certifié → localise et quantifie tous les
+   matériaux amiantés (toiture, mais aussi joints, colles, conduits éventuels).
+2. **Désamiantage par une entreprise certifiée** (certification amiante SS3 / Qualibat
+   1552) : **plan de retrait** transmis à la **DREETS (inspection du travail)** et à la
+   Carsat **au moins 1 mois avant** le début des travaux.
+3. **Traçabilité des déchets** : bordereaux de suivi (BSDA), évacuation en filière agréée
+   (ISDD/ISDND selon nature) — l'amiante-ciment est un déchet dangereux.
+4. **Permis de démolir** : à vérifier s'il est exigé sur ce secteur de Rodez (les communes
+   peuvent l'instaurer) ; sinon la démolition est intégrée au **permis de construire**.
+
+**Impact business plan** (à chiffrer au stade devis) :
+- Désamiantage toiture fibrociment : ordre de grandeur **20 à 50 €/m²** (selon accès,
+  hauteur, dépose soignée) → pour ~900-1 100 m² de toiture, **~25 à 55 k€**, hors
+  démolition de la structure et évacuation des gravats.
+- Démolition de la structure (charpente/murs, dalle conservée si réutilisable) : poste
+  séparé à chiffrer.
+
+**Levier de négociation** : un hangar à toiture amiantée est un **passif** pour le
+propriétaire (coût de désamiantage à sa charge tôt ou tard, décote à la revente). Le
+projet data center, en prenant en charge la dépollution, **retire ce passif** — argument
+à valoriser face à l'offre de l'acheteur BTP (qui, lui, héritera aussi de ce coût).
+
+**Point ZAN / dalle** : après démolition, la parcelle reste **artificialisée** (pas de
+consommation d'espace) ; si la dalle béton existante est saine, sa **réutilisation** comme
+assise du data center réduit le génie civil — à vérifier (portance vs 11-30 t par module).
+
 ## 4. Régime d'autorisation pour un MegaMod
 
 Le scénario Vertiv MegaMod (cf. `data/vertiv-megamod-specs.md`) change de catégorie

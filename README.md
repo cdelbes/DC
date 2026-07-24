@@ -32,8 +32,10 @@ Un **business plan chiffré** couvrant :
 | `docs/03-typologie-data-centers.md` | Types de data centers possibles selon terrain et puissance |
 | `docs/04-urbanisme-reglementaire.md` | DP / PC, PLUi, ICPE — adapté de la méthode Next Compute |
 | `docs/05-business-plan-trame.md` | Trame du business plan et hypothèses à renseigner |
-| `docs/06-etude-urbanistique-site.md` | **Étude urbanistique du site** (ZA Bel-Air, Rodez) |
-| `data/site.yml` | Fiche site (GPS, parcelle, zone PLU…) |
+| `docs/06-etude-urbanistique-site.md` | **Étude urbanistique du site** (ZA Bel-Air, Rodez) + amiante |
+| `docs/07-certificat-urbanisme-guide.md` | **Guide CUb** : formulaire, pièces, note descriptive, délais |
+| `docs/08-preetude-raccordement-enedis.md` | **Guide pré-étude / raccordement Enedis HTA** |
+| `data/site.yml` | Fiche site (GPS, parcelle, zone PLU, réseau HTA…) |
 | `data/vertiv-megamod-specs.md` | Synthèse brochure Vertiv MegaMod (0,5–2 MW modulaire) |
 | `scripts/` | Pipeline automatisé : cartes IGN, parcelle cadastrale, zonage PLU depuis un point GPS |
 
@@ -49,9 +51,13 @@ Un **business plan chiffré** couvrant :
 - [x] Point GPS de la parcelle : 44.372954, 2.544455 — ZA Bel-Air, Rodez
 - [x] Étude urbanistique du site (doc 06) — verdict provisoire 🟢, foncier ≈ 2 522 m²
 - [x] Candidat technique identifié : Vertiv MegaMod 0,5–2 MW (`data/vertiv-megamod-specs.md`)
+- [x] Réseau HTA : ~2,5 MW dispo (conso) et tronçon HTA à ~250 m (cartographie Enedis) — 🟢
+- [x] Guide certificat d'urbanisme opérationnel (doc 07)
+- [x] Guide pré-étude / raccordement Enedis (doc 08)
 - [ ] Confirmation parcelle + zone PLUi sur cadastre.gouv.fr / Géoportail de l'Urbanisme
-- [ ] Certificat d'urbanisme opérationnel (CUb)
-- [ ] Pré-étude / demande de raccordement Enedis (250 kVA / 1 MW / 2 MW)
+- [ ] Dépôt du CUb (Cerfa 13410*13)
+- [ ] Pré-étude Enedis (1 MW / 2 MW)
+- [ ] Devis désamiantage + démolition du hangar
 - [ ] Choix du scénario (type et taille de data center)
 - [ ] Business plan chiffré
 - [ ] Dossier de présentation au propriétaire
