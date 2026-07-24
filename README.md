@@ -32,7 +32,9 @@ Un **business plan chiffré** couvrant :
 | `docs/03-typologie-data-centers.md` | Types de data centers possibles selon terrain et puissance |
 | `docs/04-urbanisme-reglementaire.md` | DP / PC, PLUi, ICPE — adapté de la méthode Next Compute |
 | `docs/05-business-plan-trame.md` | Trame du business plan et hypothèses à renseigner |
-| `data/site.yml` | Fiche site (GPS, parcelle, zone PLU…) — **à compléter** |
+| `docs/06-etude-urbanistique-site.md` | **Étude urbanistique du site** (ZA Bel-Air, Rodez) |
+| `data/site.yml` | Fiche site (GPS, parcelle, zone PLU…) |
+| `data/vertiv-megamod-specs.md` | Synthèse brochure Vertiv MegaMod (0,5–2 MW modulaire) |
 | `scripts/` | Pipeline automatisé : cartes IGN, parcelle cadastrale, zonage PLU depuis un point GPS |
 
 > La méthode s'appuie sur le dossier de reprise **Next Compute** (document interne
@@ -44,9 +46,12 @@ Un **business plan chiffré** couvrant :
 - [x] Recherche préliminaire raccordement Enedis (procédure, coûts, délais, Caparéseau)
 - [x] Typologie des data centers envisageables
 - [x] Scripts d'analyse parcellaire prêts (cartes IGN, cadastre, zone PLU)
-- [ ] **Point GPS de la parcelle** ← *en attente — bloque la suite*
-- [ ] Analyse parcellaire (surface, parcelle, zone PLUi Rodez Agglomération)
-- [ ] Pré-étude / demande de raccordement Enedis (puissance de soutirage disponible)
+- [x] Point GPS de la parcelle : 44.372954, 2.544455 — ZA Bel-Air, Rodez
+- [x] Étude urbanistique du site (doc 06) — verdict provisoire 🟢, foncier ≈ 2 522 m²
+- [x] Candidat technique identifié : Vertiv MegaMod 0,5–2 MW (`data/vertiv-megamod-specs.md`)
+- [ ] Confirmation parcelle + zone PLUi sur cadastre.gouv.fr / Géoportail de l'Urbanisme
+- [ ] Certificat d'urbanisme opérationnel (CUb)
+- [ ] Pré-étude / demande de raccordement Enedis (250 kVA / 1 MW / 2 MW)
 - [ ] Choix du scénario (type et taille de data center)
 - [ ] Business plan chiffré
 - [ ] Dossier de présentation au propriétaire
