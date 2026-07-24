@@ -18,15 +18,37 @@
   délai) de l'extension de réseau — bien mieux qu'un raccordement à créer depuis un poste
   source lointain.
 
+### Que signifie exactement « capacité disponible » ?
+
+Question soulevée : le point à 250 m est **l'extrémité du tronçon HTA** portant
+l'étiquette « Capacité disponible : 2,5 MW ». Est-ce 2,5 MW *restants* ou le
+*dimensionnement* du câble (potentiellement déjà saturé) ?
+
+**Réponse** : sur la cartographie Enedis, « **capacité disponible** » = capacité **encore
+libre pour accueillir un nouveau raccordement sans renforcement** du réseau. Ce n'est
+**pas** la capacité nominale du câble. C'est l'objet même de l'outil : montrer la
+**marge** résiduelle. Un tronçon saturé afficherait une capacité disponible faible ou
+nulle. Donc les 2,5 MW sont bien du **soutirable résiduel** à cet endroit (au mois de la
+mise à jour). L'hypothèse « dimensionné 2,5 MW mais plus rien de libre » ne correspond
+pas à ce que l'étiquette indique.
+
 **Limites à garder en tête (à confirmer par Enedis, ne pas surinterpréter la carte) :**
-1. La capacité affichée est **indicative et mutualisée** : elle n'est **pas réservée** au
-   site et peut être consommée par un autre projet qui déposerait avant (règle du
-   « premier arrivé »). Une **PTF acceptée + acompte** est ce qui réserve la capacité.
-2. La carte donne une capacité **de zone / de poste source**, pas la garantie que le
-   **départ HTA le plus proche** peut l'acheminer sans renforcement.
-3. Les **~250 m d'extension HTA** (tranchée, câble, éventuel poste) ont un coût à la
-   charge du demandeur (consommateur → pas de réfaction) : c'est l'un des postes majeurs
-   du CAPEX à faire chiffrer.
+1. **File d'attente non prise en compte.** La donnée est actualisée **mensuellement** et
+   **n'intègre pas les demandes de raccordement en cours**. Un projet concurrent déjà
+   déposé peut avoir consommé une partie des 2,5 MW sans apparaître. La capacité **n'est
+   pas réservée** tant qu'il n'y a pas de **PTF acceptée + acompte** (règle du « premier
+   arrivé »).
+2. **Contrainte possiblement en amont.** Les 2,5 MW peuvent être bornés non par ce
+   tronçon mais par le **poste source** (transfo HTB/HTA) qui l'alimente. La carte intègre
+   les contraintes réseau, mais seule la **pré-étude** identifie l'élément limitant et
+   confirme que 2,5 MW sont délivrables **jusqu'à la parcelle**.
+3. **Point = extrémité du départ HTA.** Deux conséquences :
+   - il faut **prolonger le HTA de ~250 m** (tranchée, câble, éventuel poste) → coût à la
+     charge du demandeur (consommateur → pas de réfaction), l'un des postes majeurs du
+     CAPEX ; et **chute de tension** à vérifier pour une forte puissance en bout de ligne ;
+   - une extrémité de départ = alimentation **radiale (en antenne)**, sans bouclage. Pour
+     la **résilience** d'un data center (secours N-1), une **seconde alimentation /
+     bouclage** peut être souhaitable → coût supplémentaire à évaluer.
 4. Le **poste de livraison HTA** (local + comptage) et son génie civil sont à la charge
    du projet, sur la parcelle.
 
@@ -73,8 +95,14 @@ obtenu et le foncier sécurisé.
 3. **Délai** de réalisation par palier (référence secteur : 4-6 mois si capacité dispo,
    6-9 mois + si renforcement).
 4. La capacité de 2,5 MW est-elle **réservable**, et à quelles conditions
-   (PTF + acompte) ? Y a-t-il des demandes concurrentes en file sur ce départ ?
-5. Quote-part éventuelle au titre d'un **S3REnR** (a priori non pour de la consommation).
+   (PTF + acompte) ? Y a-t-il des **demandes concurrentes en file d'attente** sur ce
+   départ (non visibles sur la carte) ?
+5. Les 2,5 MW affichés sont-ils limités par **ce départ HTA** ou par le **poste source**
+   en amont ? La capacité tient-elle **jusqu'à la parcelle** après extension de ~250 m
+   (chute de tension) ?
+6. Le raccordement en **bout de départ (antenne)** est-il acceptable pour la puissance
+   visée, ou faut-il un **bouclage / une 2ᵉ alimentation** (résilience) — et à quel coût ?
+7. Quote-part éventuelle au titre d'un **S3REnR** (a priori non pour de la consommation).
 
 ## 4. Ce que la pré-étude alimente dans le business plan
 
