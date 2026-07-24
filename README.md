@@ -35,6 +35,7 @@ Un **business plan chiffré** couvrant :
 | `docs/06-etude-urbanistique-site.md` | **Étude urbanistique du site** (ZA Bel-Air, Rodez) + amiante |
 | `docs/07-certificat-urbanisme-guide.md` | **Guide CUb** : formulaire, pièces, note descriptive, délais |
 | `docs/08-preetude-raccordement-enedis.md` | **Guide pré-étude / raccordement Enedis HTA** |
+| `docs/09-analyse-roi-policloud.md` | **Décryptage pédagogique du ROI Calculator Policloud** (business du calcul GPU en chiffres) |
 | `data/site.yml` | Fiche site (GPS, parcelle, zone PLU, réseau HTA…) |
 | `data/vertiv-megamod-specs.md` | Synthèse brochure Vertiv MegaMod (0,5–2 MW modulaire) |
 | `scripts/` | Pipeline automatisé : cartes IGN, parcelle cadastrale, zonage PLU depuis un point GPS |
@@ -54,6 +55,7 @@ Un **business plan chiffré** couvrant :
 - [x] Réseau HTA : ~2,5 MW dispo (conso) et tronçon HTA à ~250 m (cartographie Enedis) — 🟢
 - [x] Guide certificat d'urbanisme opérationnel (doc 07)
 - [x] Guide pré-étude / raccordement Enedis (doc 08)
+- [x] Analyse du modèle économique Policloud (doc 09) — business du calcul GPU expliqué
 - [ ] Confirmation parcelle + zone PLUi sur cadastre.gouv.fr / Géoportail de l'Urbanisme
 - [ ] Dépôt du CUb (Cerfa 13410*13)
 - [ ] Pré-étude Enedis (1 MW / 2 MW)
