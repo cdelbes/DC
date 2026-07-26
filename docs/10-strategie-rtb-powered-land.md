@@ -117,8 +117,11 @@ Tes contre-arguments réels, à documenter :
 - **climat frais** (altitude ~590 m) → free cooling, PUE bas, argument coût ;
 - **souveraineté / edge régional** (santé, collectivités, secteur public d'Occitanie nord) ;
 - parcelle **déjà artificialisée** (argument ZAN).
-- **À vérifier absolument : la fibre.** Sans connectivité fibre correcte à Bel-Air, la
-  valeur RTB chute fortement. C'est le 3ᵉ pilier du powered land, à instruire en priorité.
+- **Fibre : vérifiée — plutôt favorable** (voir doc 11). La ZA de Bel-Air est couverte
+  en FTTH (Orange y déploie), un RIP récent (ALL'Fibre) dessert le territoire et la fibre
+  dédiée entreprise (FTTO) y est livrable. Ce pilier du powered land est donc **présent** ;
+  restent à confirmer par devis une **2ᵉ route diversifiée** et la **carrier-neutralité**.
+  → La fibre n'est **plus** le maillon faible ; le facteur discriminant reste la **demande**.
 
 ---
 
