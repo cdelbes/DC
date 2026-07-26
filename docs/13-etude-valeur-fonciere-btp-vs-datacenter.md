@@ -36,6 +36,13 @@ Ajustements propres à ce bien :
 La valeur data center **ne remplace pas** la valeur foncière : elle **s'y ajoute** via
 quatre leviers. Chacun est activable indépendamment.
 
+> 🔴 **Révisé par `docs/14`** (étude de marché approfondie) : le levier 1 ci-dessous
+> retenait un multiple ×1,5-3 emprunté au marché international. L'étude du marché
+> **français** conclut qu'il faut lui préférer une **méthode par coût de remplacement** —
+> la survaleur est bornée par ce que le site fait économiser à l'acheteur (raccordement,
+> autorisations, désamiantage, temps), soit **+150 à +400 k€**, ce qui donne une
+> fourchette RTB de **~320 à 700 k€**. Chiffres à utiliser en priorité.
+
 ### Levier 1 — Survaleur « powered land » (vente d'un site dé-risqué)
 Un foncier **RTB** (électricité sécurisée + permis + terrain propre) vaut, sur le marché
 data center européen, **2 à 4× un terrain comparable sans puissance** (cf. doc 10).

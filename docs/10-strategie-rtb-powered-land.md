@@ -54,6 +54,13 @@ sécurisée + des autorisations. C'est le RTB poussé à l'extrême.
 > ⚠️ Ces multiples spectaculaires sont ceux des **métropoles hyperscale américaines**.
 > Ils **ne se transposent pas** à un site de 2,5 MW en Aveyron (voir §4). À citer comme
 > **preuve de concept**, pas comme promesse de prix.
+>
+> 🔴 **Mise à jour importante (voir `docs/14`)** : l'étude de marché approfondie du
+> marché français conclut qu'il faut **abandonner le multiple ×2-4** pour ce site et lui
+> substituer une **méthode par coût de remplacement** (survaleur = ce que l'on fait
+> économiser à l'acheteur), soit **+150 à +400 k€**. Le marché français du powered land
+> se négocie sur **18-150 ha / 50 MW-1 GW** — pas à l'échelle de ce site. Lire le doc 14
+> avant d'utiliser ce document en négociation.
 
 ---
 
