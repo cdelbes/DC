@@ -41,6 +41,7 @@ Un **business plan chiffré** couvrant :
 | `docs/12-acheteurs-partenaires-clients.md` | **Liste acheteurs / partenaires / clients** pour un DC ~1 MW à Rodez |
 | `docs/13-etude-valeur-fonciere-btp-vs-datacenter.md` | **Étude de valeur foncière** : vente BTP vs voie data center |
 | `docs/14-etude-marche-powered-land-france.md` | **Étude de marché powered land France** ⭐ — le marché existe-t-il à 1-2 MW ? (révise les docs 10 et 13) |
+| `docs/15-pitch-contact-marche.md` | **Pitchs de contact** Hadès Patrimoine & Datalok + questions à poser |
 | `deck/Deck-Foncier-Bel-Air.pptx` | **Deck de négociation** (présentation au propriétaire) |
 | `data/site.yml` | Fiche site (GPS, parcelle, zone PLU, réseau HTA…) |
 | `data/vertiv-megamod-specs.md` | Synthèse brochure Vertiv MegaMod (0,5–2 MW modulaire) |
@@ -69,9 +70,9 @@ Un **business plan chiffré** couvrant :
 - [x] **Deck de négociation propriétaire** (`deck/Deck-Foncier-Bel-Air.pptx`)
 - [x] Étude de marché powered land France (doc 14) — marché réel mais **pas à l'échelle 1-2 MW** ;
       survaleur révisée à **+150-400 k€** (méthode coût de remplacement)
-- [ ] ⚠️ **PRIORITÉ 1 — Test de marché** : appeler Hadès Patrimoine + Datalok (conseil), puis
+- [x] Pitchs de contact rédigés (doc 15)
+- [ ] ⚠️ **PRIORITÉ 1 — Test de marché** : envoyer les pitchs à Hadès Patrimoine + Datalok, puis
       UltraEdge / Adista / Etix / FullSave → un acheteur existe-t-il pour un site 1-2 MW à Rodez ?
-- [ ] Recaler le deck (slide 11 valeur, slide 13 ask → exclusivité courte de test)
 - [ ] Sonder RAGT / CH Rodez / Rodez Agglo (client-ancre)
 - [ ] Confirmation parcelle + zone PLUi sur cadastre.gouv.fr / Géoportail de l'Urbanisme
 - [ ] Dépôt du CUb (Cerfa 13410*13)

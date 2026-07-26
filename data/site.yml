@@ -22,9 +22,11 @@ raccordement:
   puissance_souscrite_kva: null
   poste_source: null          # via Caparéseau
   reseau_hta:                 # relevé cartographie Enedis (mon-compte-entreprise.enedis.fr)
-    tronçon_hta_gps: [44.3741348133494, 2.5473038346853905]
-    distance_parcelle_m: 250
-    capacite_conso_dispo_mw: 2.5   # indicatif, non réservé — à confirmer par pré-étude/PTF
+    # ⚠️ capacités INDICATIVES (carte, MAJ mensuelle, hors file d'attente) — non réservées
+    troncons:
+      - { gps: [44.3741348133494, 2.5473038346853905], distance_m: 260, capacite_conso_mw: 2.5 }
+      - { distance_m: 800, capacite_conso_mw: 3.4 }
+    puissance_cible_mw: 1.0   # hypothèse prudente ~50 % de la capacité du départ le plus proche
   pre_etude_enedis:           # à demander : 1 MW et 2 MW (doc 08)
     - { palier_mw: 1, cout_eur: null, delai_mois: null }
     - { palier_mw: 2, cout_eur: null, delai_mois: null }
