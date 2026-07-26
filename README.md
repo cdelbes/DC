@@ -38,6 +38,7 @@ Un **business plan chiffré** couvrant :
 | `docs/09-analyse-roi-policloud.md` | **Décryptage pédagogique du ROI Calculator Policloud** (business du calcul GPU en chiffres) |
 | `docs/10-strategie-rtb-powered-land.md` | **Stratégie RTB / “powered land”** : valoriser le foncier prêt-à-bâtir sans exploiter |
 | `docs/11-connectivite-fibre-site.md` | **Vérification fibre du site** (FTTH/FTTO, RIP ALL'Fibre, backbone) |
+| `docs/12-acheteurs-partenaires-clients.md` | **Liste acheteurs / partenaires / clients** pour un DC ~1 MW à Rodez |
 | `data/site.yml` | Fiche site (GPS, parcelle, zone PLU, réseau HTA…) |
 | `data/vertiv-megamod-specs.md` | Synthèse brochure Vertiv MegaMod (0,5–2 MW modulaire) |
 | `scripts/` | Pipeline automatisé : cartes IGN, parcelle cadastrale, zonage PLU depuis un point GPS |
@@ -60,7 +61,9 @@ Un **business plan chiffré** couvrant :
 - [x] Analyse du modèle économique Policloud (doc 09) — business du calcul GPU expliqué
 - [x] Analyse stratégique RTB / powered land (doc 10) — posture recommandée en Phase 1
 - [x] Vérification fibre (doc 11) — 🟢 favorable (FTTH présent, RIP ALL'Fibre, FTTO livrable)
-- [ ] Test de marché : sonder acheteurs / partenaires edge / colo régionaux
+- [x] Liste acheteurs / partenaires / clients (doc 12) — cible n°1 UltraEdge (Datapoles)
+- [ ] Test de marché : sonder RAGT / CH Rodez / Rodez Agglo (client-ancre) + UltraEdge
+- [ ] Teaser 1 page pour démarchage
 - [ ] Confirmation parcelle + zone PLUi sur cadastre.gouv.fr / Géoportail de l'Urbanisme
 - [ ] Dépôt du CUb (Cerfa 13410*13)
 - [ ] Pré-étude Enedis (1 MW / 2 MW)
