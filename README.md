@@ -42,6 +42,8 @@ Un **business plan chiffré** couvrant :
 | `docs/13-etude-valeur-fonciere-btp-vs-datacenter.md` | **Étude de valeur foncière** : vente BTP vs voie data center |
 | `docs/14-etude-marche-powered-land-france.md` | **Étude de marché powered land France** ⭐ — le marché existe-t-il à 1-2 MW ? (révise les docs 10 et 13) |
 | `docs/15-pitch-contact-marche.md` | **Pitchs de contact** Hadès Patrimoine & Datalok + questions à poser |
+| `docs/16-evaluation-bp-next-compute.md` | **Évaluation critique du BP Next Compute** (JV Tenergie) — répartition de la valeur, erreurs, sensibilités |
+| `analyse/nc_model_sensibilites.py` | Reconstruction du modèle Next Compute + tests de sensibilité (reproduit le fichier à l'euro près) |
 | `deck/Deck-Foncier-Bel-Air.pptx` | **Deck de négociation** (présentation au propriétaire) |
 | `data/site.yml` | Fiche site (GPS, parcelle, zone PLU, réseau HTA…) |
 | `data/vertiv-megamod-specs.md` | Synthèse brochure Vertiv MegaMod (0,5–2 MW modulaire) |
@@ -73,6 +75,8 @@ Un **business plan chiffré** couvrant :
 - [x] Pitchs de contact rédigés (doc 15)
 - [ ] ⚠️ **PRIORITÉ 1 — Test de marché** : envoyer les pitchs à Hadès Patrimoine + Datalok, puis
       UltraEdge / Adista / Etix / FullSave → un acheteur existe-t-il pour un site 1-2 MW à Rodez ?
+- [x] Évaluation du BP Next Compute (doc 16) — JV : TRI réel Tenergie **25,3 %** (et non 34,1 %),
+      Next Compute capte ~65 % de la valeur pour 67 € de capital ; 3 erreurs et 10 questions listées
 - [ ] Sonder RAGT / CH Rodez / Rodez Agglo (client-ancre)
 - [ ] Confirmation parcelle + zone PLUi sur cadastre.gouv.fr / Géoportail de l'Urbanisme
 - [ ] Dépôt du CUb (Cerfa 13410*13)
