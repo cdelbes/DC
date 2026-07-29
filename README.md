@@ -43,7 +43,7 @@ Un **business plan chiffré** couvrant :
 | `docs/14-etude-marche-powered-land-france.md` | **Étude de marché powered land France** ⭐ — le marché existe-t-il à 1-2 MW ? (révise les docs 10 et 13) |
 | `docs/15-pitch-contact-marche.md` | **Pitchs de contact** Hadès Patrimoine & Datalok + questions à poser |
 | `docs/16-evaluation-bp-next-compute.md` | **Évaluation critique du BP Next Compute** (JV Tenergie) — répartition de la valeur, erreurs, sensibilités |
-| `docs/17-argument-carbone-localisation.md` | **Argument carbone & localisation** (mix français bas carbone, PUE, CSRD) — usage et limites |
+| `docs/17-argument-carbone-localisation.md` | **Argument carbone & localisation** — fact-check du post Gorintin, fuite carbone, 92 TWh d'exports, formulations prêtes |
 | `analyse/nc_model_sensibilites.py` | Reconstruction du modèle Next Compute + tests de sensibilité (reproduit le fichier à l'euro près) |
 | `deck/Deck-Foncier-Bel-Air.pptx` | **Deck de négociation** (présentation au propriétaire) |
 | `data/site.yml` | Fiche site (GPS, parcelle, zone PLU, réseau HTA…) |
@@ -78,8 +78,9 @@ Un **business plan chiffré** couvrant :
       UltraEdge / Adista / Etix / FullSave → un acheteur existe-t-il pour un site 1-2 MW à Rodez ?
 - [x] Évaluation du BP Next Compute (doc 16) — JV : TRI réel Tenergie **25,3 %** (et non 34,1 %),
       Next Compute capte ~65 % de la valeur pour 67 € de capital ; 3 erreurs et 10 questions listées
-- [x] Argument carbone / localisation (doc 17) — vent porteur national, mais **non discriminant**
-      entre sites français ; différenciant seulement via PUE d'altitude + PPA renouvelable
+- [x] Argument carbone / localisation (doc 17) — post lu et **fact-check validé** (×20 exact : 420 g
+      Virginie vs 19,6 g France). Non discriminant entre sites français, mais deux apports clés :
+      **fuite carbone** (acceptabilité locale) et **92 TWh exportés** (réponse à « le réseau ne tiendra pas »)
 - [ ] Sonder RAGT / CH Rodez / Rodez Agglo (client-ancre)
 - [ ] Confirmation parcelle + zone PLUi sur cadastre.gouv.fr / Géoportail de l'Urbanisme
 - [ ] Dépôt du CUb (Cerfa 13410*13)
