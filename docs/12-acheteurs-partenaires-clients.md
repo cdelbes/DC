@@ -21,18 +21,28 @@
 Ceux qui pourraient **acheter le site RTB**, **le co-développer**, ou **l'opérer** en y
 amenant leur demande.
 
-### A1. UltraEdge — **le meilleur fit, à contacter en priorité** ⭐
-- **Qui** : n°1 français de l'edge (a repris les data centers de SFR), **400 M€
-  d'investissement d'ici 2028**, ~248 sites, 90 edge data centers.
-- **Modèle « Datapole »** : un data center majeur au cœur d'une grande ville **+ des sites
-  d'hébergement de proximité dans un rayon de ~100 km**. Datapoles prévus à **Toulouse et
-  Montpellier**.
-- **Pourquoi ce site** : Rodez est à ~150 km de Toulouse et de Montpellier — **exactement
-  le type de site satellite** que leur modèle agrège autour d'un datapole métropolitain.
-  Puissance 1 MW disponible + fibre + foncier propre = ce qu'ils cherchent.
-- **Comment approcher** : les contacter **quand le datapole Toulouse/Montpellier se
-  précise**, en présentant un **site RTB clé en main** (électrifié, permis, fibre). Angle :
-  « point de régénération / edge de proximité déjà dé-risqué ».
+### A1. UltraEdge — 🟡 **cible révisée à la baisse** *(voir la fiche détaillée `docs/19`)*
+
+> 🔴 **Correction** : ce document plaçait initialement UltraEdge en cible n°1 pour une
+> **cession foncière**. L'analyse approfondie (doc 19) montre que **leur modèle est
+> explicitement construit pour éviter d'acheter du foncier** — ne pas avoir à construire
+> est présenté comme leur avantage concurrentiel. S'ajoutent deux obstacles : Rodez est
+> **hors du rayon de ~100 km** des datapoles Toulouse et Montpellier (125-150 km), et ils
+> comptent **déjà 20+ sites en Occitanie**.
+
+- **Qui** : n°1 français de l'edge (reprise des data centers de SFR pour une **EV de
+  764 M€**, ~29× EBITDA), détenu par **Morgan Stanley Infrastructure Partners (70 %)** et
+  Altice (30 %). **400 M€ d'investissement d'ici 2028**, ~250 sites, **51 MW au total**.
+- **Modèle « Datapole »** : un data center majeur en grande ville + des sites de proximité
+  dans un rayon de ~100 km. **Toulouse et Montpellier prévus en 2027**.
+- **L'angle qui reste ouvert — la puissance** : leurs sites hérités de SFR font en moyenne
+  **~200 kW** (51 MW / ~250 sites) ; leur datapole vitrine de Bordeaux plafonne à **2,9 MW
+  après 15 M€**. Ton site offre **1 à 2,5 MW mobilisables**, soit l'équivalent d'un
+  datapole à lui seul. **C'est la seule question qui puisse les intéresser.**
+- **Comment approcher** : **ne pas** proposer d'acheter le terrain. Proposer plutôt
+  d'**accueillir un module** (micro data center / conteneur — format présent dans leur
+  typologie), en position de propriétaire-bailleur. Et **passer d'abord par Datalok**, qui
+  est leur partenaire et connaît leurs critères.
 
 ### A2. Opérateurs de colocation régionaux d'Occitanie
 Ils cherchent à **mailler le territoire** (proximité, souveraineté, plan de reprise). Un

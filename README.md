@@ -45,6 +45,7 @@ Un **business plan chiffré** couvrant :
 | `docs/16-evaluation-bp-next-compute.md` | **Évaluation critique du BP Next Compute** (JV Tenergie) — répartition de la valeur, erreurs, sensibilités |
 | `docs/17-argument-carbone-localisation.md` | **Argument carbone & localisation** — fact-check du post Gorintin, fuite carbone, 92 TWh d'exports, formulations prêtes |
 | `docs/18-etude-marche-deploiement-datacenters-france.md` | **Étude de marché : déploiement des data centers en France à 3/5/10 ans** — puissances, croissance, centralisé vs décentralisé |
+| `docs/19-fiche-ultraedge.md` | **Fiche approfondie UltraEdge** — M&A (EV 764 M€, ~29× EBITDA), portefeuille, datapoles, Occitanie, angle d'approche |
 | `analyse/nc_model_sensibilites.py` | Reconstruction du modèle Next Compute + tests de sensibilité (reproduit le fichier à l'euro près) |
 | `deck/Deck-Foncier-Bel-Air.pptx` | **Deck de négociation** (présentation au propriétaire) |
 | `data/site.yml` | Fiche site (GPS, parcelle, zone PLU, réseau HTA…) |
@@ -69,7 +70,7 @@ Un **business plan chiffré** couvrant :
 - [x] Analyse du modèle économique Policloud (doc 09) — business du calcul GPU expliqué
 - [x] Analyse stratégique RTB / powered land (doc 10) — posture recommandée en Phase 1
 - [x] Vérification fibre (doc 11) — 🟢 favorable (FTTH présent, RIP ALL'Fibre, FTTO livrable)
-- [x] Liste acheteurs / partenaires / clients (doc 12) — cible n°1 UltraEdge (Datapoles)
+- [x] Liste acheteurs / partenaires / clients (doc 12)
 - [x] Étude de valeur foncière BTP vs data center (doc 13)
 - [x] **Deck de négociation propriétaire** (`deck/Deck-Foncier-Bel-Air.pptx`)
 - [x] Étude de marché powered land France (doc 14) — marché réel mais **pas à l'échelle 1-2 MW** ;
@@ -84,6 +85,8 @@ Un **business plan chiffré** couvrant :
       **fuite carbone** (acceptabilité locale) et **92 TWh exportés** (réponse à « le réseau ne tiendra pas »)
 - [x] Étude de marché déploiement France 3/5/10 ans (doc 18) — 0,7-1,1 GW aujourd'hui → ~2,3 GW en 2030 ;
       croissance **centralisée en puissance, déconcentrée en géographie** ; 18 GW réservés chez RTE pour 2,3 GW construits
+- [x] Fiche approfondie UltraEdge (doc 19) — ⚠️ **cible révisée à la baisse** : leur modèle évite le
+      greenfield ; angle restant = la puissance (leurs sites font ~200 kW en moyenne) et l'accueil de module
 - [ ] Sonder RAGT / CH Rodez / Rodez Agglo (client-ancre)
 - [ ] Confirmation parcelle + zone PLUi sur cadastre.gouv.fr / Géoportail de l'Urbanisme
 - [ ] Dépôt du CUb (Cerfa 13410*13)
