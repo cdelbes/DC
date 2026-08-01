@@ -44,6 +44,7 @@ Un **business plan chiffré** couvrant :
 | `docs/15-pitch-contact-marche.md` | **Pitchs de contact** Hadès Patrimoine & Datalok + questions à poser |
 | `docs/16-evaluation-bp-next-compute.md` | **Évaluation critique du BP Next Compute** (JV Tenergie) — répartition de la valeur, erreurs, sensibilités |
 | `docs/17-argument-carbone-localisation.md` | **Argument carbone & localisation** — fact-check du post Gorintin, fuite carbone, 92 TWh d'exports, formulations prêtes |
+| `docs/18-etude-marche-deploiement-datacenters-france.md` | **Étude de marché : déploiement des data centers en France à 3/5/10 ans** — puissances, croissance, centralisé vs décentralisé |
 | `analyse/nc_model_sensibilites.py` | Reconstruction du modèle Next Compute + tests de sensibilité (reproduit le fichier à l'euro près) |
 | `deck/Deck-Foncier-Bel-Air.pptx` | **Deck de négociation** (présentation au propriétaire) |
 | `data/site.yml` | Fiche site (GPS, parcelle, zone PLU, réseau HTA…) |
@@ -81,6 +82,8 @@ Un **business plan chiffré** couvrant :
 - [x] Argument carbone / localisation (doc 17) — post lu et **fact-check validé** (×20 exact : 420 g
       Virginie vs 19,6 g France). Non discriminant entre sites français, mais deux apports clés :
       **fuite carbone** (acceptabilité locale) et **92 TWh exportés** (réponse à « le réseau ne tiendra pas »)
+- [x] Étude de marché déploiement France 3/5/10 ans (doc 18) — 0,7-1,1 GW aujourd'hui → ~2,3 GW en 2030 ;
+      croissance **centralisée en puissance, déconcentrée en géographie** ; 18 GW réservés chez RTE pour 2,3 GW construits
 - [ ] Sonder RAGT / CH Rodez / Rodez Agglo (client-ancre)
 - [ ] Confirmation parcelle + zone PLUi sur cadastre.gouv.fr / Géoportail de l'Urbanisme
 - [ ] Dépôt du CUb (Cerfa 13410*13)
