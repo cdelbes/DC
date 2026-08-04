@@ -3,18 +3,21 @@
 
 site:
   nom: "Dépôt couverture/étanchéité — ZA Bel-Air, Rodez"
-  commune: "Rodez"            # ZA Bel-Air à cheval Rodez / Onet-le-Château — à confirmer via cadastre
+  commune: "Rodez"            # CONFIRMÉ : code INSEE 12202 dans la référence cadastrale
   code_postal: "12000"
-  adresse: "rue de la Ferronnerie / av. des Compagnons, ZA Bel-Air"
+  adresse: "35 rue de la Ferronnerie, ZA Bel-Air"
 
 gps:
   lat: 44.37295358345457
   lon: 2.5444548605206823
 
-cadastre:                     # rempli par scripts/get_parcelle.py (API bloquée en session — relever sur cadastre.gouv.fr)
-  parcelle: null              # ex. "AB 123" — À CONFIRMER
-  surface_m2: 2522            # mesure Google Maps (foncier disponible) — à confirmer au cadastre
+cadastre:                     # source : Pappers Immobilier (relevé 02/08/2026)
+  parcelle: "12202000BH0187"  # section BH n° 187, commune de Rodez (INSEE 12202)
+  surface_m2: 2631            # parcelle totale
+  surface_libre_m2: 2144      # = 2631 - 487 (emprise du bâti)
+  altitude_m: 586             # confirme le potentiel free cooling
   zone_plu: null              # attendu type UX (ZA Bel-Air) — À CONFIRMER sur le GPU (PLUi DU_241200187)
+  statut_fiscal_zone: "AFR + ZRR (à confirmer pour la partie Rodez)"  # aides et exonérations possibles
   servitudes: []
 
 raccordement:
@@ -32,12 +35,19 @@ raccordement:
     - { palier_mw: 2, cout_eur: null, delai_mois: null }
 
 foncier:
-  proprietaire: "père de Charles"
+  proprietaire: "père de Charles (via SCI)"
   projet_actuel: "vente à une entreprise du BTP"
-  offre_btp_eur: null         # valeur de référence pour le comparatif du BP
+  acquisition:
+    date: "2018-07-19"
+    prix_eur: 275000          # soit 104,5 EUR/m2 de terrain — dans le marché de l'époque (doc 20)
+  valeur_estimee_2026_eur: [215000, 380000]   # médian ~300 k EUR, net du passif amiante (doc 20)
+  valeur_rtb_estimee_eur: [295000, 637000]    # médian ~465 k EUR — multiple x1,4 à x1,7 (doc 20)
+  offre_btp_eur: null         # ⚠️ TOUJOURS MANQUANT — seule vraie référence à battre
   bati_existant:
     present: true
     type: "hangar-dépôt"
-    surface_m2: null          # emprise estimée ~900-1100 m² (vue aérienne) — à confirmer
+    emprise_sol_m2: 487       # source Pappers/BDNB (et non ~1000 m2 comme estimé à vue)
+    hauteur_m: [4, 6]
+    usage: "Tertiaire & Autres / Industriel"
     toiture_amiante: true      # ⚠️ désamiantage + démolition prévus (voir doc 06)
     demolition_prevue: true

@@ -13,13 +13,13 @@
 |---|---|---|
 | Coordonnées | 44.372954, 2.544455 | fourni |
 | Localisation | ZA de Bel-Air, rue de la Ferronnerie / av. des Compagnons | vue aérienne + annuaires (Ets Castes : av. des Compagnons, 12000 Rodez ; Orexad : 389 rue Ferronnerie, 12000 Rodez) |
-| Commune | **Rodez (12000)** — la ZA Bel-Air est à cheval sur Rodez et Onet-le-Château ; les adresses voisines immédiates sont rattachées à Rodez | annuaires ; **[À CONFIRMER]** par la référence cadastrale |
-| Foncier disponible | **≈ 2 522 m²** (mesure Google Maps fournie) | mesure du porteur |
-| Bâti existant | hangar-dépôt (emprise estimée ~900–1 100 m² sur la vue aérienne) + cour de stockage matériaux | vue aérienne |
-| Références cadastrales | **[À CONFIRMER]** — API cadastre inaccessible depuis cet environnement (proxy) ; à relever sur cadastre.gouv.fr au point GPS | — |
+| Commune | **Rodez (12000)** — ✅ **confirmé** : code INSEE **12202** dans la référence cadastrale | Pappers Immobilier |
+| Foncier disponible | **2 631 m²** de parcelle, dont **2 144 m² libres** | ✅ Pappers Immobilier (doc 20) |
+| Bâti existant | hangar-dépôt, **487 m² d'emprise au sol** (h. 4-6 m) + cour de stockage | ✅ Pappers/BDNB (doc 20) — nettement plus petit que l'estimation initiale à vue |
+| Références cadastrales | **12202000BH0187** → **section BH n° 187**, Rodez | ✅ Pappers Immobilier (doc 20) |
 | Environnement immédiat | tissu 100 % activités : Orexad, Veolia Eau, RMA 12, Couvoir Ruthénois (Ets Castes), centre technique municipal de Rodez au nord | vue aérienne |
 | Desserte | voirie de ZA (rue de la Ferronnerie), av. des Compagnons avec arrêts de bus ; accès poids lourds existant (dépôt matériaux) | vue aérienne |
-| Altitude | ~580–600 m (plateau de Bel-Air) | topographie IGN |
+| Altitude | **586 m** (plateau de Bel-Air) | ✅ Pappers/BDNB |
 
 **Lecture d'ensemble** : un site d'activités mature et banalisé — le contexte le plus
 favorable possible pour un data center au regard de la grille Next Compute (équivalent

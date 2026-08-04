@@ -36,6 +36,12 @@ Ajustements propres à ce bien :
 La valeur data center **ne remplace pas** la valeur foncière : elle **s'y ajoute** via
 quatre leviers. Chacun est activable indépendamment.
 
+> 🔴 **Révisé une seconde fois par `docs/20`** (benchmark sur données cadastrales réelles) :
+> parcelle **2 631 m²** (et non 2 522), bâti **487 m²**, acquisition **275 000 € en 2018**.
+> Valeur actuelle estimée **215-380 k€** (médian ~300 k€), valeur RTB **295-637 k€**
+> (médian ~465 k€), soit un multiple réaliste de **×1,4 à ×1,7**. Chiffres du doc 20 à
+> utiliser en priorité.
+>
 > 🔴 **Révisé par `docs/14`** (étude de marché approfondie) : le levier 1 ci-dessous
 > retenait un multiple ×1,5-3 emprunté au marché international. L'étude du marché
 > **français** conclut qu'il faut lui préférer une **méthode par coût de remplacement** —

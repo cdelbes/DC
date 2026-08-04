@@ -46,6 +46,7 @@ Un **business plan chiffré** couvrant :
 | `docs/17-argument-carbone-localisation.md` | **Argument carbone & localisation** — fact-check du post Gorintin, fuite carbone, 92 TWh d'exports, formulations prêtes |
 | `docs/18-etude-marche-deploiement-datacenters-france.md` | **Étude de marché : déploiement des data centers en France à 3/5/10 ans** — puissances, croissance, centralisé vs décentralisé |
 | `docs/19-fiche-ultraedge.md` | **Fiche approfondie UltraEdge** — M&A (EV 764 M€, ~29× EBITDA), portefeuille, datapoles, Occitanie, angle d'approche |
+| `docs/20-benchmark-valeur-foncier-rodez.md` | **Benchmark valeur du foncier** — données cadastrales réelles, prix 2018 vs marché, multiple RTB |
 | `analyse/nc_model_sensibilites.py` | Reconstruction du modèle Next Compute + tests de sensibilité (reproduit le fichier à l'euro près) |
 | `deck/Deck-Foncier-Bel-Air.pptx` | **Deck de négociation** (présentation au propriétaire) |
 | `data/site.yml` | Fiche site (GPS, parcelle, zone PLU, réseau HTA…) |
@@ -88,7 +89,11 @@ Un **business plan chiffré** couvrant :
 - [x] Fiche approfondie UltraEdge (doc 19) — ⚠️ **cible révisée à la baisse** : leur modèle évite le
       greenfield ; angle restant = la puissance (leurs sites font ~200 kW en moyenne) et l'accueil de module
 - [ ] Sonder RAGT / CH Rodez / Rodez Agglo (client-ancre)
-- [ ] Confirmation parcelle + zone PLUi sur cadastre.gouv.fr / Géoportail de l'Urbanisme
+- [x] **Parcelle confirmée** : BH 187, Rodez (INSEE 12202) — 2 631 m², bâti 487 m², altitude 586 m
+- [x] Benchmark valeur foncière (doc 20) — achat 2018 (275 k€) **dans le marché** ; valeur actuelle
+      ~300 k€ médian, RTB ~465 k€ → multiple réaliste **×1,4 à ×1,7** (et non ×2-4)
+- [ ] Vérifier l'éligibilité **AFR / ZRR** de la ZA Bel-Air (aides + exonérations)
+- [ ] Confirmation zone PLUi sur le Géoportail de l'Urbanisme
 - [ ] Dépôt du CUb (Cerfa 13410*13)
 - [ ] Pré-étude Enedis (1 MW / 2 MW)
 - [ ] Devis désamiantage + démolition du hangar
