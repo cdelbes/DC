@@ -49,6 +49,7 @@ Un **business plan chiffré** couvrant :
 | `docs/20-benchmark-valeur-foncier-rodez.md` | **Benchmark valeur du foncier** — données cadastrales réelles, prix 2018 vs marché, multiple RTB |
 | `docs/21-plan-lancement-test-rapide.md` | ⭐ **PLAN D'ACTION** — tester le projet en 6-8 semaines pour ~0 € : qui contacter, dans quel ordre, avec quels arguments |
 | `docs/22-pourquoi-la-localisation-compte.md` | **Pourquoi la localisation compte (ou non)** — latence réelle, les 6 vraies barrières, l'angle PRA où Rodez gagne |
+| `docs/23-emails-hades-fullsave.md` | **E-mails prêts à envoyer** Hadès Patrimoine & FullSave + coordonnées + préparation de l'appel Datalok |
 | `analyse/nc_model_sensibilites.py` | Reconstruction du modèle Next Compute + tests de sensibilité (reproduit le fichier à l'euro près) |
 | `deck/Deck-Foncier-Bel-Air.pptx` | **Deck de négociation** (présentation au propriétaire) |
 | `data/site.yml` | Fiche site (GPS, parcelle, zone PLU, réseau HTA…) |
@@ -83,7 +84,9 @@ Un **business plan chiffré** couvrant :
       mais « **qui finance le raccordement ?** » (la survaleur couvre à peine le dé-risquage)
 - [ ] 🚀 **SEMAINE 1** — lancer la **pré-étude Enedis** (gratuite, chemin critique) ; obtenir le
       **montant de l'offre BTP** ; vérifier le zonage PLU ; clarifier la position vis-à-vis de Tenergie
-- [ ] 📞 **SEMAINES 2-3** — Datalok (en premier), Hadès Patrimoine, FullSave / Adista / Etix
+- [x] 📅 **Appel Datalok calé au 26 août 2026**
+- [ ] 📞 Envoyer les e-mails **Hadès Patrimoine** et **FullSave** (doc 23) + relance le 25-28 août
+- [ ] 📞 Puis Adista / Etix si besoin
 - [ ] 🏛️ **SEMAINES 3-4** — Rodez Agglomération (zonage + AFR/ZRR) et RAGT (client-ancre)
 - [x] Analyse localisation (doc 22) — la latence n'est **pas** le sujet (2-3 ms vers Toulouse) ; le vrai
       frein est la **granularité de la demande**. Angle fort identifié : **site de secours (PRA) de Toulouse**
