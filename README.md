@@ -47,6 +47,7 @@ Un **business plan chiffré** couvrant :
 | `docs/18-etude-marche-deploiement-datacenters-france.md` | **Étude de marché : déploiement des data centers en France à 3/5/10 ans** — puissances, croissance, centralisé vs décentralisé |
 | `docs/19-fiche-ultraedge.md` | **Fiche approfondie UltraEdge** — M&A (EV 764 M€, ~29× EBITDA), portefeuille, datapoles, Occitanie, angle d'approche |
 | `docs/20-benchmark-valeur-foncier-rodez.md` | **Benchmark valeur du foncier** — données cadastrales réelles, prix 2018 vs marché, multiple RTB |
+| `docs/21-plan-lancement-test-rapide.md` | ⭐ **PLAN D'ACTION** — tester le projet en 6-8 semaines pour ~0 € : qui contacter, dans quel ordre, avec quels arguments |
 | `analyse/nc_model_sensibilites.py` | Reconstruction du modèle Next Compute + tests de sensibilité (reproduit le fichier à l'euro près) |
 | `deck/Deck-Foncier-Bel-Air.pptx` | **Deck de négociation** (présentation au propriétaire) |
 | `data/site.yml` | Fiche site (GPS, parcelle, zone PLU, réseau HTA…) |
@@ -77,8 +78,12 @@ Un **business plan chiffré** couvrant :
 - [x] Étude de marché powered land France (doc 14) — marché réel mais **pas à l'échelle 1-2 MW** ;
       survaleur révisée à **+150-400 k€** (méthode coût de remplacement)
 - [x] Pitchs de contact rédigés (doc 15)
-- [ ] ⚠️ **PRIORITÉ 1 — Test de marché** : envoyer les pitchs à Hadès Patrimoine + Datalok, puis
-      UltraEdge / Adista / Etix / FullSave → un acheteur existe-t-il pour un site 1-2 MW à Rodez ?
+- [x] **Plan de lancement (doc 21)** — la question décisive n'est pas « un acheteur existe-t-il ? »
+      mais « **qui finance le raccordement ?** » (la survaleur couvre à peine le dé-risquage)
+- [ ] 🚀 **SEMAINE 1** — lancer la **pré-étude Enedis** (gratuite, chemin critique) ; obtenir le
+      **montant de l'offre BTP** ; vérifier le zonage PLU ; clarifier la position vis-à-vis de Tenergie
+- [ ] 📞 **SEMAINES 2-3** — Datalok (en premier), Hadès Patrimoine, FullSave / Adista / Etix
+- [ ] 🏛️ **SEMAINES 3-4** — Rodez Agglomération (zonage + AFR/ZRR) et RAGT (client-ancre)
 - [x] Évaluation du BP Next Compute (doc 16) — JV : TRI réel Tenergie **25,3 %** (et non 34,1 %),
       Next Compute capte ~65 % de la valeur pour 67 € de capital ; 3 erreurs et 10 questions listées
 - [x] Argument carbone / localisation (doc 17) — post lu et **fact-check validé** (×20 exact : 420 g
