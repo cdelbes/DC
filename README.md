@@ -48,6 +48,7 @@ Un **business plan chiffré** couvrant :
 | `docs/19-fiche-ultraedge.md` | **Fiche approfondie UltraEdge** — M&A (EV 764 M€, ~29× EBITDA), portefeuille, datapoles, Occitanie, angle d'approche |
 | `docs/20-benchmark-valeur-foncier-rodez.md` | **Benchmark valeur du foncier** — données cadastrales réelles, prix 2018 vs marché, multiple RTB |
 | `docs/21-plan-lancement-test-rapide.md` | ⭐ **PLAN D'ACTION** — tester le projet en 6-8 semaines pour ~0 € : qui contacter, dans quel ordre, avec quels arguments |
+| `docs/22-pourquoi-la-localisation-compte.md` | **Pourquoi la localisation compte (ou non)** — latence réelle, les 6 vraies barrières, l'angle PRA où Rodez gagne |
 | `analyse/nc_model_sensibilites.py` | Reconstruction du modèle Next Compute + tests de sensibilité (reproduit le fichier à l'euro près) |
 | `deck/Deck-Foncier-Bel-Air.pptx` | **Deck de négociation** (présentation au propriétaire) |
 | `data/site.yml` | Fiche site (GPS, parcelle, zone PLU, réseau HTA…) |
@@ -84,6 +85,8 @@ Un **business plan chiffré** couvrant :
       **montant de l'offre BTP** ; vérifier le zonage PLU ; clarifier la position vis-à-vis de Tenergie
 - [ ] 📞 **SEMAINES 2-3** — Datalok (en premier), Hadès Patrimoine, FullSave / Adista / Etix
 - [ ] 🏛️ **SEMAINES 3-4** — Rodez Agglomération (zonage + AFR/ZRR) et RAGT (client-ancre)
+- [x] Analyse localisation (doc 22) — la latence n'est **pas** le sujet (2-3 ms vers Toulouse) ; le vrai
+      frein est la **granularité de la demande**. Angle fort identifié : **site de secours (PRA) de Toulouse**
 - [x] Évaluation du BP Next Compute (doc 16) — JV : TRI réel Tenergie **25,3 %** (et non 34,1 %),
       Next Compute capte ~65 % de la valeur pour 67 € de capital ; 3 erreurs et 10 questions listées
 - [x] Argument carbone / localisation (doc 17) — post lu et **fact-check validé** (×20 exact : 420 g
