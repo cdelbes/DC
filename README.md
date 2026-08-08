@@ -51,6 +51,7 @@ Un **business plan chiffré** couvrant :
 | `docs/22-pourquoi-la-localisation-compte.md` | **Pourquoi la localisation compte (ou non)** — latence réelle, les 6 vraies barrières, l'angle PRA où Rodez gagne |
 | `docs/23-emails-hades-fullsave.md` | **E-mails prêts à envoyer** Hadès Patrimoine & FullSave + coordonnées + préparation de l'appel Datalok |
 | `docs/24-guide-pratique-demande-enedis.md` | ⭐ **Guide pas à pas de la demande Enedis** — qui doit être demandeur, mandat SCI, quel compte, pièges à éviter |
+| `docs/25-preparation-conversation-pere.md` | ⭐ **Préparation de la conversation avec le propriétaire** — reframe « tranquillité », échelle des demandes, objections |
 | `analyse/nc_model_sensibilites.py` | Reconstruction du modèle Next Compute + tests de sensibilité (reproduit le fichier à l'euro près) |
 | `deck/Deck-Foncier-Bel-Air.pptx` | **Deck de négociation** (présentation au propriétaire) |
 | `data/site.yml` | Fiche site (GPS, parcelle, zone PLU, réseau HTA…) |
@@ -83,9 +84,9 @@ Un **business plan chiffré** couvrant :
 - [x] Pitchs de contact rédigés (doc 15)
 - [x] **Plan de lancement (doc 21)** — la question décisive n'est pas « un acheteur existe-t-il ? »
       mais « **qui finance le raccordement ?** » (la survaleur couvre à peine le dé-risquage)
-- [ ] 🚀 **SEMAINE 1 — la conversation avec le père débloque tout** (doc 24) : Enedis exige l'accord
-      du propriétaire, donc obtenir en une fois → **montant de l'offre BTP** + **accord de principe**
-      + **signature du mandat de représentation Enedis** (formulaire type, n'engage à rien)
+- [ ] 🗓️ **SEMAINE PROCHAINE — conversation avec le père** (doc 25) : sa motivation est la
+      **tranquillité**, pas l'argent → vendre « tu ne fais rien, tu ne perds rien, ça finit le [date] ».
+      Obtenir : **mandat Enedis signé** (priorité n°1) + pas de signature avant [date] + **montant de l'offre BTP**
 - [ ] Puis déposer la **pré-étude Enedis** (1 MW et 2 MW) avec un compte au **SIRET de la SCI**
 - [ ] Vérifier le zonage PLU ; clarifier la position vis-à-vis de Tenergie
 - [x] 📅 **Appel Datalok calé au 26 août 2026**
