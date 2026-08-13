@@ -54,6 +54,7 @@ Un **business plan chiffré** couvrant :
 | `docs/25-preparation-conversation-pere.md` | ⭐ **Préparation de la conversation avec le propriétaire** — reframe « tranquillité », échelle des demandes, objections |
 | `docs/26-mandat-enedis-et-option-location.md` | **Mandat Enedis pré-rempli** (mode d'emploi) + analyse de l'option location |
 | `documents/Mandat-Enedis-PRE-REMPLI.pdf` | ⭐ **Mandat Enedis prêt à signer** — champs pré-remplis, cases cochées |
+| `docs/27-apres-conversation-pere-recalage.md` | ⭐ **Recalage après la conversation** — valorisation notariale 400-650 k€, le « ×2 » à corriger, piste réhabilitation |
 | `analyse/nc_model_sensibilites.py` | Reconstruction du modèle Next Compute + tests de sensibilité (reproduit le fichier à l'euro près) |
 | `deck/Deck-Foncier-Bel-Air.pptx` | **Deck de négociation** (présentation au propriétaire) |
 | `data/site.yml` | Fiche site (GPS, parcelle, zone PLU, réseau HTA…) |
@@ -86,10 +87,13 @@ Un **business plan chiffré** couvrant :
 - [x] Pitchs de contact rédigés (doc 15)
 - [x] **Plan de lancement (doc 21)** — la question décisive n'est pas « un acheteur existe-t-il ? »
       mais « **qui finance le raccordement ?** » (la survaleur couvre à peine le dé-risquage)
-- [ ] 🗓️ **SEMAINE PROCHAINE — conversation avec le père** (doc 25) : sa motivation est la
-      **tranquillité**, pas l'argent → vendre « tu ne fais rien, tu ne perds rien, ça finit le [date] ».
-      Obtenir : **mandat Enedis signé** (priorité n°1, PDF pré-rempli dans `documents/`) + pas de
-      signature avant [date] + **montant de l'offre BTP** + **PRM** + estimation notaire + loyer historique
+- [x] ✅ **Conversation avec le père faite** — **mandat Enedis accordé**, accord pour étudier.
+      Valorisation notariale **400-650 k€** (il demandera 650 k€), ancien loyer **3 500 €/mois**,
+      ⚠️ **commercialisation sous 1 mois** avec prospects déjà identifiés
+- [ ] 🚀 **Déposer la pré-étude Enedis** (1 MW et 2 MW) — aujourd'hui/demain
+- [ ] 📄 Récupérer les **études amiante et assainissement** déjà réalisées par le père
+- [ ] ❓ **Instruire la piste réhabilitation** (ne pas démolir le bâtiment de 487 m²) — doc 27 §4
+- [ ] 🗣️ **Recalibrer le « ×2 »** annoncé au père (réalité : ×1,3 à ×1,6)
 - [ ] Puis déposer la **pré-étude Enedis** (1 MW et 2 MW) avec un compte au **SIRET de la SCI**
 - [ ] Vérifier le zonage PLU ; clarifier la position vis-à-vis de Tenergie
 - [x] 📅 **Appel Datalok calé au 26 août 2026**

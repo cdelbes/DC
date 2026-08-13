@@ -6,6 +6,12 @@
 
 ---
 
+> 🔴 **CORRIGÉ PAR LE DOC 27** — les valorisations notariales obtenues auprès du
+> propriétaire donnent **400 000 à 650 000 €**, contre 215-380 k€ estimés ici. L'erreur
+> venait de la valorisation du bâtiment (200-400 €/m² retenus, alors que l'entrepôt à Rodez
+> se négocie ~855 €/m²). **Utiliser les chiffres du doc 27.** Le multiple RTB s'en trouve
+> réduit à **×1,23-1,6** sur une base de 650 k€.
+
 ## 1. Le bien — données exactes (enfin)
 
 | Élément | Valeur | Commentaire |
