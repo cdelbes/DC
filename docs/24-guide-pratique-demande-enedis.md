@@ -137,6 +137,67 @@ python scripts/fetch_maps.py 2.5444548605206823 44.37295358345457 rodez_
 5. Renseigner les informations de l'étape 2, **pour les deux paliers**
 6. Joindre le **mandat signé** et le **KBIS de la SCI**
 
+### ⭐ Étape 3 bis — Comment qualifier la demande : « nouveau raccordement » ou « augmentation de puissance » ?
+
+C'est une question de cadrage qui a de vraies conséquences. Enedis distingue notamment
+(cf. la note de bas de page du mandat) : *« raccordement de locaux commerciaux ou
+professionnels »* et *« **modification de la puissance de raccordement** »*.
+
+#### La situation réelle
+
+Le site **dispose déjà d'un point de livraison** (le locataire a un contrat d'électricité).
+Il ne s'agit donc pas d'un terrain nu. Deux cadrages sont possibles :
+
+| | **Augmentation de puissance** *(sur le PDL existant)* | Nouveau raccordement |
+|---|---|---|
+| Description | le site existe, on porte sa puissance à 1-2 MW | on crée un nouveau point de livraison |
+| Cohérence avec le scénario **réhabilitation** | ✅ **totale** — le bâtiment reste | ❌ suppose une démolition |
+| Autorisation d'urbanisme exigée | 🟢 **allégée** — on modifie un existant | 🔴 permis de construire souvent demandé pour la PTF |
+| Ancrage du dossier | sur un site **réel et identifié** | sur un projet hypothétique |
+| Coût des travaux | **identique** — voir ci-dessous | identique |
+
+#### ✅ Recommandation : cadrer en « augmentation de la puissance de raccordement »
+
+Quatre raisons :
+
+1. **C'est factuellement exact.** Il y a une alimentation en place, tu veux davantage de
+   puissance au même endroit.
+2. **C'est cohérent avec le scénario devenu prioritaire** (réhabilitation du bâtiment,
+   doc 28) : si l'on ne démolit pas, le point de livraison existant ne disparaît pas.
+3. **Cela contourne le piège de l'autorisation d'urbanisme.** Le doc 24 §1 signalait que la
+   PTF suppose généralement un permis de construire. Une augmentation de puissance sur un
+   bâtiment existant s'en affranchit largement — c'est un **gain de plusieurs mois**, décisif
+   vu le calendrier resserré (doc 27).
+4. **Cela ancre Enedis sur un site réel**, pas sur un projet hypothétique — un dossier
+   toujours mieux traité.
+
+#### ⚠️ Ce que ça ne change PAS : le coût
+
+Passer d'une alimentation **BT** (quelques dizaines de kVA) à **1 MW en HTA** est un
+**changement de domaine de tension**. Quelle que soit l'étiquette administrative, les
+travaux physiques sont les mêmes :
+- extension du réseau **HTA** sur ~260 m ;
+- création d'un **poste de livraison HTA privé** sur la parcelle ;
+- nouveau comptage.
+
+→ **Le chiffrage de la pré-étude sera identique dans les deux cas.** Le cadrage joue sur le
+**parcours administratif et les délais**, pas sur la facture.
+
+#### Comment le formuler dans le dossier
+
+> **Nature de la demande** : augmentation de la puissance de raccordement d'un site
+> existant (bâtiment industriel, parcelle BH 187), passage en **HTA**.
+> **Puissances étudiées** : **1 MW** et **2 MW**. Usage : data center, fonctionnement
+> **24/7 à profil de charge plat**. Poste de livraison HTA privé prévu sur la parcelle.
+> PDL existant : *(à compléter dès obtention)*.
+
+#### 📌 Le mandat signé couvre les deux cas
+
+Le mandat mentionne « **Raccordement de locaux professionnels — soutirage HTA (1 MW et
+2 MW)** ». Cette rédaction est **suffisamment large** pour couvrir une augmentation de
+puissance : elle désigne le bon site, le bon domaine de tension et les bonnes puissances.
+**Inutile de le refaire signer.**
+
 ### Étape 4 — Poser les bonnes questions
 
 À écrire explicitement dans le champ « commentaires » ou lors de l'échange avec le
@@ -180,6 +241,7 @@ gagner du temps.
 | Utiliser le compte **Tenergie** | conflit d'intérêts + dossier rattaché à l'employeur | compte au SIRET de la **SCI** |
 | Demander la **PTF** au lieu de la pré-étude | suppose un permis, et l'acceptation engage financièrement | **pré-étude** d'abord |
 | Cocher **« production »** | c'est le réflexe d'un développeur EnR — mais ici tu **consommes** | **consommation / soutirage** |
+| Se déclarer en **raccordement neuf** alors qu'un PDL existe | tu déclenches l'exigence de permis de construire et tu perds des mois | **augmentation de puissance** (voir étape 3 bis) |
 | Créer une **société** pour l'occasion | coût et complexité inutiles à ce stade | **mandat** de la SCI |
 | Ne demander **qu'une seule puissance** | tu perds la comparaison | **1 MW *et* 2 MW** |
 | Annoncer « **2,5 MW sécurisés** » | faux : la carte est indicative | « capacité indiquée, non réservée » |
