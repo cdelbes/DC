@@ -52,6 +52,18 @@ foncier:
     date: "2026-08-13"
     type: "mandat simple de représentation"
     fichier: "documents/Mandat-Enedis-SIGNE-COMPLET.pdf"
+  demande_raccordement:                 # 1er dépôt Enedis (portail raccordement >250 kVA)
+    depose_le: "2026-08-17"
+    ref_demande: "260817I200009"
+    ref_dossier: "RACNMP26005657"
+    type_demande: "Anticipée"           # sans AU, pour connaître coût + délai ; ⚠️ étude payante au barème
+    projet: "Un nouveau raccordement"   # (et non 'augmentation de puissance' - urbanisme déclaré 'Non')
+    pracc_kw: 1000                       # SEUL palier chiffré structuré ; le 2 MW n'est demandé qu'en texte libre
+    mise_en_service_visee: "2027-06-01"
+    beneficiaire: "SCI JIDE (SIRET 83936177100026)"
+    mandataire: "Charles DELBÈS"
+    fichier: "documents/Enedis-Demande-Raccordement-1MW-2026-08-17.pdf"
+    note: "Champ mandat du portail = pouvoirs signer+payer déclarés ; or le mandat signé est SIMPLE (sans ces pouvoirs). Sans effet au stade anticipé, à recaler avant toute PTF."
   projet_actuel: "vente à une entreprise du BTP"
   acquisition:
     date: "2018-07-19"
