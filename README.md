@@ -27,6 +27,7 @@ Un **business plan chiffré** couvrant :
 
 | Dossier / fichier | Contenu |
 |---|---|
+| `HANDOFF.md` | ⭐ **Document de transfert** — tout le projet en un seul fichier autonome (contexte, données, conclusions, erreurs corrigées, prochaines actions). À lire en premier pour reprendre le dossier. |
 | `docs/01-contexte-projet.md` | Contexte, parties prenantes, question à trancher |
 | `docs/02-raccordement-enedis.md` | Méthode et état des connaissances raccordement (chemin critique) |
 | `docs/03-typologie-data-centers.md` | Types de data centers possibles selon terrain et puissance |
