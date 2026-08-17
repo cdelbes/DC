@@ -35,7 +35,23 @@ raccordement:
     - { palier_mw: 2, cout_eur: null, delai_mois: null }
 
 foncier:
-  proprietaire: "père de Charles (via SCI)"
+  proprietaire: "SCI JIDÉ - gérant Jacques DELBÈS"
+  sci:
+    denomination: "SCI JIDÉ"
+    siren: "839361771"
+    siret: "83936177100026"
+    rcs: "Rodez, immatriculée le 04/05/2018"
+    capital_eur: 1000
+    siege: "35 rue de la Ferronnerie, ZA de Bel Air, 12000 Rodez"
+    correspondance: "Le Grand Balcon, 9 rue de Paraire, 12000 Rodez"
+    gerant: "DELBÈS Jacques, Gérard, Pierre-Marie (né le 15/08/1961 à Rodez)"
+    objet_social: "acquisition, administration et exploitation par bail, location ou autrement"
+    kbis_fourni: "à jour au 01/05/2019 - PÉRIMÉ, en demander un récent"
+  mandat_enedis:
+    signe: true
+    date: "2026-08-13"
+    type: "mandat simple de représentation"
+    fichier: "documents/Mandat-Enedis-SIGNE-COMPLET.pdf"
   projet_actuel: "vente à une entreprise du BTP"
   acquisition:
     date: "2018-07-19"
@@ -45,9 +61,35 @@ foncier:
   offre_btp_eur: null         # ⚠️ TOUJOURS MANQUANT — seule vraie référence à battre
   bati_existant:
     present: true
-    type: "hangar-dépôt"
-    emprise_sol_m2: 487       # source Pappers/BDNB (et non ~1000 m2 comme estimé à vue)
+    type: "bâtiment industriel avec étage de bureaux"   # PAS un simple hangar (diagnostic 06/2026)
+    emprise_sol_m2: 487
     hauteur_m: [4, 6]
+    annee_construction: "1989-2000"
+    surface_chauffee_m2: 154   # DPE : zone administrative (bureaux)
+    dpe: "192 kWhEP/m2.an - 6 kgeqCO2/m2.an"
+    locaux:
+      etage: "entrée, accueil, 3 bureaux, archives, salle de réunion, réserve"
+      rdc: "WC, magasin, stockage, dépôt"
     usage: "Tertiaire & Autres / Industriel"
-    toiture_amiante: true      # ⚠️ désamiantage + démolition prévus (voir doc 06)
-    demolition_prevue: true
+    amiante:                   # diagnostic Cabinet AGENDA n°0626-022 du 18/06/2026
+      present: true
+      localisation: "couverture plaques fibres-ciment, zone travail RDC Dépôt (UNIQUEMENT)"
+      classement: "liste B"
+      obligation: "EP (évaluation périodique) - AUCUN retrait obligatoire"
+      reste_couverture: "bacs acier, non amianté"
+    termites: "absence"
+    demolition_prevue: false   # révisé : piste réhabilitation privilégiée (doc 28)
+
+risques:                       # État des Risques et Pollutions (ERP) 18/06/2026
+  ppri: "AUCUN plan de prévention des risques"   # confirme l'hypothèse du doc 06
+  sismicite: "2 (faible)"
+  secteur_information_sols: false
+  radon: "niveau 3 (significatif)"
+  debroussaillement: false
+
+travaux_en_attente:
+  assainissement:              # devis PUECHOULTRES n°26070129 du 29/07/2026, validité 30/09/2026
+    objet: "réseaux périphériques EP + EU"
+    montant_ht_eur: 18076
+    montant_ttc_eur: 21691
+    statut: "devis non signé - caractère obligatoire à clarifier"

@@ -55,6 +55,8 @@ Un **business plan chiffré** couvrant :
 | `docs/26-mandat-enedis-et-option-location.md` | **Mandat Enedis pré-rempli** (mode d'emploi) + analyse de l'option location |
 | `documents/Mandat-Enedis-PRE-REMPLI.pdf` | ⭐ **Mandat Enedis prêt à signer** — champs pré-remplis, cases cochées |
 | `docs/27-apres-conversation-pere-recalage.md` | ⭐ **Recalage après la conversation** — valorisation notariale 400-650 k€, le « ×2 » à corriger, piste réhabilitation |
+| `docs/28-analyse-documents-proprietaire.md` | ⭐ **Analyse des documents du propriétaire** — amiante limité, pas de PPRi, bâtiment avec bureaux |
+| `documents/Mandat-Enedis-SIGNE-COMPLET.pdf` | ✅ **Mandat signé** (13/08/2026) — fusionné, prêt pour Enedis |
 | `analyse/nc_model_sensibilites.py` | Reconstruction du modèle Next Compute + tests de sensibilité (reproduit le fichier à l'euro près) |
 | `deck/Deck-Foncier-Bel-Air.pptx` | **Deck de négociation** (présentation au propriétaire) |
 | `data/site.yml` | Fiche site (GPS, parcelle, zone PLU, réseau HTA…) |
@@ -90,7 +92,12 @@ Un **business plan chiffré** couvrant :
 - [x] ✅ **Conversation avec le père faite** — **mandat Enedis accordé**, accord pour étudier.
       Valorisation notariale **400-650 k€** (il demandera 650 k€), ancien loyer **3 500 €/mois**,
       ⚠️ **commercialisation sous 1 mois** avec prospects déjà identifiés
-- [ ] 🚀 **Déposer la pré-étude Enedis** (1 MW et 2 MW) — aujourd'hui/demain
+- [x] ✅ **Mandat Enedis SIGNÉ** le 13/08/2026 par Jacques et Charles DELBÈS — fusionné et prêt
+- [x] ✅ **Documents reçus et analysés** (doc 28) : amiante **limité à une partie de couverture,
+      classement EP sans retrait obligatoire** · **aucun PPRi** · pas de pollution · pas de termites ·
+      ⭐ **le bâti est un bâtiment industriel 1989-2000 avec étage de bureaux**, pas un hangar
+- [ ] ⚠️ **Obtenir un Kbis récent** (celui fourni date de 2019) avant de déposer chez Enedis
+- [ ] 🚀 **Déposer la pré-étude Enedis** (1 MW et 2 MW)
 - [ ] 📄 Récupérer les **études amiante et assainissement** déjà réalisées par le père
 - [ ] ❓ **Instruire la piste réhabilitation** (ne pas démolir le bâtiment de 487 m²) — doc 27 §4
 - [ ] 🗣️ **Recalibrer le « ×2 »** annoncé au père (réalité : ×1,3 à ×1,6)
