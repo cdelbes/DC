@@ -64,6 +64,23 @@ foncier:
     mandataire: "Charles DELBÈS"
     fichier: "documents/Enedis-Demande-Raccordement-1MW-2026-08-17.pdf"
     note: "Champ mandat du portail = pouvoirs signer+payer déclarés ; or le mandat signé est SIMPLE (sans ces pouvoirs). Sans effet au stade anticipé, à recaler avant toute PTF."
+    suivi:                              # appel du chargé de projet Enedis le 17/08/2026
+      - date: "2026-08-17"
+        evenement: "Appel du chargé de suivi de projet le jour même du dépôt"
+        decisions:
+          - "Requalification : devis/proposition de raccordement GRATUIT au lieu de l'étude anticipée payante"
+          - "Puissance retenue : 2 MW (1 MW ou moins = moins cher, palier à explorer)"
+          - "Pas de permis de construire requis (réutilisation du bâtiment existant)"
+          - "RDV sur site à planifier : implantation du poste de livraison + transfo privé"
+        constats:
+          - "HTA passe au coin de la rue -> extension courte, coût a priori modéré"
+          - "RISQUE PRINCIPAL : renforcement de ligne, coût potentiellement important"
+        a_confirmer_au_rdv:             # cf. doc 29 §4
+          - "À partir de quand la capacité est-elle réservée ?"
+          - "Montant + échéancier de l'acompte à l'acceptation"
+          - "Le raccordement est-il TRANSFÉRABLE à un repreneur ? (critique pour le modèle RTB)"
+          - "Le poste de livraison est-il chiffré dans la proposition ?"
+          - "Existe-t-il un palier de puissance sans renforcement ?"
   projet_actuel: "vente à une entreprise du BTP"
   acquisition:
     date: "2018-07-19"
