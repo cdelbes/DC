@@ -1,4 +1,4 @@
-# 23 — E-mails prêts à envoyer : Hadès Patrimoine, FullSave & DATALLIANCE
+# 23 — E-mails prêts à envoyer : Hadès Patrimoine, FullSave, DATALLIANCE & CBRE
 
 > Compléments au doc 15 et au plan du doc 21.
 > **Contexte** : appel Datalok déjà calé au **26 août 2026**. Formulaire de contact déjà
@@ -222,6 +222,92 @@ Message de connexion — 300 caractères maximum, donc uniquement l'essentiel :
 | **Ne pas nommer l'employeur** | Contrainte permanente du projet : ne jamais laisser croire que Tenergie porte le dossier. *(Si on te pose la question en appel, réponds simplement et distingue clairement le cadre personnel.)* |
 | **Deux questions, pas cinq** | Une question par paragraphe tue le taux de réponse. Les deux retenues sont celles des docs 21 et 31. |
 | **« 20 minutes » et « je m'adapte »** | L'engagement demandé doit être plus petit que l'effort de refuser. |
+
+---
+
+## 3 ter. Formulaire / e-mail — CBRE France *(ajouté le 18/08/2026)*
+
+> ⚠️ **CBRE n'est ni un acheteur ni un développeur : c'est un conseil et un intermédiaire
+> rémunéré à la transaction.** Le message doit donc être construit très différemment de
+> celui adressé à DATALLIANCE — et **les chances de réponse sont objectivement plus faibles**,
+> parce qu'un dossier de 2 MW ne génère pas d'honoraires à leur échelle.
+> Le §« Pourquoi » ci-dessous explique comment compenser.
+
+### L'équipe Data Center Solutions France (5 personnes, Paris)
+
+| Nom | Fonction | Intérêt pour toi |
+|---|---|---|
+| **Pierre-Louis Dumont** | Directeur Data Center Solutions **Europe continentale** + Directeur exécutif Agence **Industriel & Logistique** | trop haut pour un premier contact à froid |
+| **Séraphin Bravard** | Directeur Data Center Solutions France | mission affichée : accompagner les **hyperscalers** dans leurs recherches de sites → **très au-dessus de ton échelle** |
+| **Michaël Cohen** | Directeur **Advisory** Data Center Solutions France | l'advisory est le bon service line |
+| **Paul-Thibault Sallou** | **Consultant** Data Center Solutions France | 🎯 **le bon destinataire** — assez junior pour avoir le temps de répondre, assez informé pour savoir |
+
+> 🎯 **Conseil tactique : écris au consultant, pas au directeur Europe.** Un directeur reçoit
+> 50 sollicitations par semaine et arbitre au chiffre d'affaires. Un consultant construit son
+> réseau et connaît le marché tout aussi bien.
+
+### Où écrire
+
+- **Formulaire** : `cbre.fr` → *À propos de CBRE* → **Vos contacts**.
+  Si un menu déroulant de service line est proposé : choisir **« Data Center Solutions »**,
+  à défaut **« Industriel & Logistique »**.
+- ⚠️ Je **n'ai pas pu inspecter le formulaire** (`cbre.fr` est bloqué par le proxy de cet
+  environnement) : je ne connais ni ses champs ni ses limites de caractères. Le texte
+  ci-dessous est volontairement **court et sans mise en forme**, pour tenir dans n'importe
+  quel champ libre.
+- **LinkedIn** en second canal, vers Paul-Thibault Sallou.
+
+### Objet / Sujet
+
+> **Site 2 MW raccordable à Rodez (12) — votre avis de marché**
+
+### Message
+
+> Bonjour,
+>
+> Je développe des projets d'énergie renouvelable et je mène, à titre personnel, le
+> développement d'un site pour data center à Rodez, en Aveyron.
+>
+> Le site : bâtiment industriel de 487 m² sur une parcelle de 2 631 m² en zone d'activités,
+> demande de raccordement **2 MW** ouverte chez Enedis avec chargé de projet désigné et
+> visite sur site programmée, fibre disponible, et **aucun permis de construire à obtenir**
+> puisque le bâtiment existant est réutilisé.
+>
+> Je sais que 2 MW se situe en dessous des dossiers que traite votre équipe Data Center
+> Solutions. Mon objectif n'est donc pas un mandat, mais votre lecture du marché :
+>
+> — un site de cette taille, déjà raccordé, présente-t-il un intérêt pour un opérateur, ou
+> faut-il impérativement changer d'échelle ?
+> — comment se mesure la survaleur d'un foncier « powered » par rapport à un foncier
+> industriel classique ?
+>
+> Si cela vous est utile, je vous transmets volontiers les caractéristiques du site pour
+> votre base de données. Et si une transaction devait se monter, je travaillerais
+> naturellement avec un conseil.
+>
+> Auriez-vous 20 minutes dans les prochaines semaines ? Je m'adapte à votre agenda.
+>
+> Bien cordialement,
+> **Charles Delbès**
+> 07 69 71 54 43 — charles@delbes.co
+
+### Pourquoi ce message est construit ainsi
+
+| Choix | Raison |
+|---|---|
+| **Dire qu'on est sous leur seuil** | Comme pour DATALLIANCE : ils le verront immédiatement. L'admettre évite le classement en « prospect non qualifié ». |
+| **⭐ Offrir le site pour leur base de données** | **C'est le cœur du message.** CBRE Data Center Solutions fait de la *recherche de sites* pour ses clients : un site raccordable qu'ils ne connaissent pas est de la **matière première**. Tu ne demandes plus une faveur, tu proposes un échange. |
+| **⭐ Mentionner qu'une transaction passerait par un conseil** | CBRE vit d'honoraires. Cette phrase transforme un coût en option future. Elle est honnête : si le projet aboutit, tu auras besoin d'un intermédiaire. |
+| **Deux questions seulement** | Les deux qui manquent au dossier : le **seuil de viabilité** et la **méthode de valorisation de la survaleur** — précisément le point où mon chiffrage initial s'était trompé *(doc 27)*. |
+| **Pas de pièce jointe au premier envoi** | Un formulaire n'en accepte pas, et une PJ non sollicitée fait chuter le taux de lecture. |
+
+### Attentes réalistes
+
+**Ne compte pas sur CBRE pour valider ton projet.** Leur intérêt commercial est ailleurs, et
+un silence ne dira rien de la qualité du site. En revanche, **une réponse, même courte, vaut
+cher** : ce sont eux qui publient les études de référence sur le marché français du data
+center. Considère cet envoi comme un **billet de loterie à coût nul**, à envoyer *après* les
+appels à haute probabilité du doc 31 §7 (APL, Cap Ingelec, Modul'Data Center).
 
 ---
 
