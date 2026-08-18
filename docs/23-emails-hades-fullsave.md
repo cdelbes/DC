@@ -1,4 +1,4 @@
-# 23 — E-mails prêts à envoyer : Hadès Patrimoine & FullSave
+# 23 — E-mails prêts à envoyer : Hadès Patrimoine, FullSave & DATALLIANCE
 
 > Compléments au doc 15 et au plan du doc 21.
 > **Contexte** : appel Datalok déjà calé au **26 août 2026**. Formulaire de contact déjà
@@ -149,6 +149,79 @@ C'est une PME régionale — les dirigeants lisent leurs messages.
 > **Charles Delbes**
 > Développeur de projets — énergies renouvelables
 > [téléphone] · [e-mail]
+
+---
+
+## 3 bis. E-mail — DATALLIANCE (JMG Partners) *(ajouté le 18/08/2026)*
+
+> Cible identifiée au **doc 31 §1** : le comparable le plus pur de ton montage (offre
+> *Powered Land* + Shell & Core, adossée à 30 ans de développement foncier logistique).
+> **Réserves foncières en Île-de-France, région lyonnaise et métropole marseillaise** — donc
+> **Rodez est hors de leur périmètre, et il faut le dire dans l'e-mail.**
+
+### Destinataire
+
+| | |
+|---|---|
+| Entité | **DATALLIANCE by JMG Partners** |
+| Dirigeante/dirigeant | **Meryl Gagnière**, directeur·rice de DATALLIANCE et *Managing Director* de JMG Partners *(avec Harry Gagnière)* |
+| Adresse e-mail | ⚠️ **non récupérée** — `jmgpartners.fr` est bloqué par le proxy de cet environnement. À prendre sur le formulaire de contact du site, ou passer par **LinkedIn** |
+| Siège | JMG Partners, Paris 8ᵉ (SIREN 823 061 387) |
+
+> ⚠️ **Civilité** : le prénom « Meryl » est épicène. **Vérifie sur LinkedIn avant d'écrire
+> « Madame » ou « Monsieur »** — ou ouvre simplement par « Bonjour, », qui est parfaitement
+> usuel et ne prend aucun risque.
+
+### Objet
+
+> **Powered land — votre lecture sur un site de 2 MW à Rodez (12)**
+
+### Corps
+
+> Bonjour,
+>
+> Je développe des projets d'énergie renouvelable, et je mène en parallèle, à titre
+> personnel, le développement d'un site pour data center à Rodez, en Aveyron.
+>
+> Le site en deux lignes : un bâtiment industriel de 487 m² sur une parcelle de 2 631 m² en
+> zone d'activités, une demande de raccordement **2 MW** ouverte chez Enedis avec un chargé
+> de projet désigné et une visite sur site programmée, la fibre disponible, et **aucun permis
+> de construire à obtenir** puisque le bâtiment existant est réutilisé.
+>
+> Je sais que ce n'est pas votre échelle et que vos réserves foncières sont ailleurs. Ce
+> n'est donc pas une proposition commerciale : DATALLIANCE est aujourd'hui l'une des rares
+> équipes françaises structurées sur le *powered land*, et c'est votre lecture du marché qui
+> m'intéresse.
+>
+> Deux questions concrètement :
+>
+> — à partir de quelle puissance un site devient-il regardable pour un développeur ?
+> — qui finance le raccordement dans les montages que vous voyez passer ?
+>
+> Auriez-vous 20 minutes dans les prochaines semaines ? Je m'adapte à votre agenda.
+>
+> Bien cordialement,
+> **Charles Delbès**
+> 07 69 71 54 43 — charles@delbes.co
+
+### Variante LinkedIn *(si tu n'obtiens pas l'adresse e-mail)*
+
+Message de connexion — 300 caractères maximum, donc uniquement l'essentiel :
+
+> Bonjour, je développe des projets EnR et, à titre personnel, un site pour data center à
+> Rodez : bâtiment existant, raccordement 2 MW en cours chez Enedis, pas de permis à obtenir.
+> Ce n'est pas votre échelle, mais votre lecture du powered land m'intéresserait. Auriez-vous
+> 20 minutes ? Merci.
+
+### Pourquoi cet e-mail est construit ainsi
+
+| Choix | Raison |
+|---|---|
+| **Dire d'emblée que ce n'est pas leur échelle** | C'est vrai, ils le verront en trois secondes. L'admettre transforme un mail commercial en demande entre pairs — et **c'est ce qui déclenche la réponse**. |
+| **Ouvrir sur « je développe des projets EnR »** | Établit en six mots que tu sais ce qu'est un raccordement, un foncier, une autorisation. Tu n'es pas un particulier qui rêve. |
+| **Ne pas nommer l'employeur** | Contrainte permanente du projet : ne jamais laisser croire que Tenergie porte le dossier. *(Si on te pose la question en appel, réponds simplement et distingue clairement le cadre personnel.)* |
+| **Deux questions, pas cinq** | Une question par paragraphe tue le taux de réponse. Les deux retenues sont celles des docs 21 et 31. |
+| **« 20 minutes » et « je m'adapte »** | L'engagement demandé doit être plus petit que l'effort de refuser. |
 
 ---
 
