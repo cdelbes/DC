@@ -21,7 +21,21 @@ joint à la demande.
 
 ---
 
-## 1. 🟢 L'amiante : bien moins lourd que je ne l'estimais
+## 1. ~~🟢 L'amiante : bien moins lourd que je ne l'estimais~~ ⛔ SECTION CORRIGÉE
+
+> 🔴 **AVERTISSEMENT — cette section est fausse sur la surface. Voir le [doc 30 §3](30-passif-chiffre-kbis-assainissement-amiante.md).**
+>
+> Le devis DELBES SAS du 03/05/2026 chiffre **518,50 m² de couverture amiantée à déposer**,
+> soit **plus que l'emprise au sol du bâtiment (487 m²)** : c'est **toute la toiture**, et non
+> « une partie seulement » comme écrit ci-dessous.
+>
+> Ce qui reste **juste** : l'obligation réglementaire est bien la plus faible (liste B,
+> évaluation périodique, **aucun retrait exigé aujourd'hui**).
+> Ce qui était **faux** : la minoration du coût. Le retrait strict revient à **≈ 32,8 k€ HT
+> (39,4 k€ TTC)** — donc **dans la fourchette 25-55 k€ initiale**, que cette section
+> prétendait à tort revoir à la baisse. Et le retrait devient **obligatoire dès qu'on touche
+> à la toiture**.
+
 
 **C'est la meilleure nouvelle du lot.** J'avais retenu 25-55 k€ de désamiantage en
 supposant toute la toiture amiantée. Le rapport dit autre chose.
@@ -108,7 +122,13 @@ Autres données :
 
 ---
 
-## 4. Le devis assainissement — un coût en attente
+## 4. ~~Le devis assainissement — un coût en attente~~ ✅ QUESTION TRANCHÉE
+
+> ✅ **Réponse obtenue le 17/08/2026 — voir le [doc 30 §2](30-passif-chiffre-kbis-assainissement-amiante.md).**
+> Le contrôle Veolia / Rodez Agglomération du 25/06/2026 conclut **NON CONFORME**, avec un
+> **délai de mise en conformité « immédiat »**. Les travaux sont donc **obligatoires**, et
+> le devis PUECHOULTRES de 21 691 € TTC correspond exactement aux préconisations imposées.
+
 
 **Entreprise PUECHOULTRES · devis n° 26070129 du 29/07/2026 · validité 30/09/2026**
 
@@ -135,7 +155,12 @@ regards avec tampons fonte, reprises de descentes EP, réfection des revêtement
 
 ---
 
-## 5. ⚠️ Un point bloquant à régler : le Kbis est périmé
+## 5. ~~⚠️ Un point bloquant à régler : le Kbis est périmé~~ ✅ RÉSOLU
+
+> ✅ **Kbis à jour au 16/08/2026 obtenu** (`documents/Kbis-SCI-JIDE-2026-08-16.pdf`).
+> ⚠️ Il **corrige aussi le siège social** : **9 rue Paraire**, et non 35 rue de la
+> Ferronnerie. Voir le [doc 30 §1](30-passif-chiffre-kbis-assainissement-amiante.md).
+
 
 Le Kbis transmis est **à jour au 1er mai 2019** — il a **plus de 7 ans**.
 

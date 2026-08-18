@@ -42,11 +42,13 @@ foncier:
     siret: "83936177100026"
     rcs: "Rodez, immatriculée le 04/05/2018"
     capital_eur: 1000
-    siege: "35 rue de la Ferronnerie, ZA de Bel Air, 12000 Rodez"
-    correspondance: "Le Grand Balcon, 9 rue de Paraire, 12000 Rodez"
+    siege: "9 rue Paraire, Le Grand Balcon, 12000 Rodez"   # CORRIGÉ par le Kbis 2026 (le 35 rue de la Ferronnerie est un bien LOUÉ, pas un établissement)
+    etablissement_principal: "9 rue Paraire, Le Grand Balcon, 12000 Rodez"
     gerant: "DELBÈS Jacques, Gérard, Pierre-Marie (né le 15/08/1961 à Rodez)"
     objet_social: "acquisition, administration et exploitation par bail, location ou autrement"
-    kbis_fourni: "à jour au 01/05/2019 - PÉRIMÉ, en demander un récent"
+    kbis_fourni: "à jour au 16/08/2026 - VALIDE (<3 mois)"   # documents/Kbis-SCI-JIDE-2026-08-16.pdf
+    kbis_code_verification: "kjVyFadFxT"   # controle.infogreffe.fr
+    numero_gestion: "2018D00141"
   mandat_enedis:
     signe: true
     date: "2026-08-13"
@@ -100,12 +102,19 @@ foncier:
       etage: "entrée, accueil, 3 bureaux, archives, salle de réunion, réserve"
       rdc: "WC, magasin, stockage, dépôt"
     usage: "Tertiaire & Autres / Industriel"
-    amiante:                   # diagnostic Cabinet AGENDA n°0626-022 du 18/06/2026
+    amiante:                   # diagnostic Cabinet AGENDA n°0626-022 du 18/06/2026 + devis DELBES SAS 03/05/2026
       present: true
-      localisation: "couverture plaques fibres-ciment, zone travail RDC Dépôt (UNIQUEMENT)"
+      localisation: "couverture plaques fibres-ciment"
       classement: "liste B"
-      obligation: "EP (évaluation périodique) - AUCUN retrait obligatoire"
-      reste_couverture: "bacs acier, non amianté"
+      obligation: "EP (évaluation périodique) - AUCUN retrait obligatoire AUJOURD'HUI"
+      surface_devis_m2: 518.5   # ⚠️ le devis chiffre 518,5 m2 = TOUTE la toiture (> emprise 487 m2)
+      incoherence: "doc 28 lisait 'une partie seulement / reste en bacs acier' ; le devis dit 518,5 m2. À TRANCHER (doc 30 §3)"
+      devis_retrait_seul_eur_ht: 32803        # plan de retrait + demolition + evacuation + empoussierement
+      devis_complet_eur_ht: 80949.85          # retrait + couverture neuve Ondatherm 40mm isolee
+      devis_complet_eur_ttc: 97139.82
+      devis_reference: "DELBES SAS n°D-260258 du 03/05/2026 - validité expirée le 02/07/2026"
+      devis_fichier: "documents/Devis-Desamiantage-Couverture-DELBES-SAS-2026-05-03.pdf"
+      declencheur: "retrait obligatoire dès qu'on touche à la toiture (démolition, réfection, percement)"
     termites: "absence"
     demolition_prevue: false   # révisé : piste réhabilitation privilégiée (doc 28)
 
@@ -121,4 +130,35 @@ travaux_en_attente:
     objet: "réseaux périphériques EP + EU"
     montant_ht_eur: 18076
     montant_ttc_eur: 21691
-    statut: "devis non signé - caractère obligatoire à clarifier"
+    statut: "OBLIGATOIRE - non-conformité constatée, délai de mise en conformité IMMÉDIAT"
+    controle:                  # Veolia pour Rodez Agglomération, 25/06/2026, test de coloration
+      date: "2026-06-25"
+      conformite: "NON CONFORME"
+      constats:
+        - "Raccordé en unitaire sur le réseau public EU (réseau public pourtant séparatif)"
+        - "Manque les regards de branchements EU et EP, ou non accessibles"
+      preconisations:
+        - "Séparer les eaux pluviales des eaux usées"
+        - "Poser les regards de branchement ou les rendre accessibles"
+      delai_l1331_1_csp: "expiré"
+      delai_mise_en_conformite: "immédiat"
+      validite_ans: 5           # caduc en cas d'aménagement ou de modification -> contre-visite si réhabilitation
+      fichier: "documents/Controle-Assainissement-Veolia-2026-06-25-NON-CONFORME.pdf"
+
+passif_documente_ttc_eur:       # cf. doc 30 §4
+  assainissement: 21692         # obligatoire
+  amiante_retrait_seul: 39364   # non obligatoire aujourd'hui
+  amiante_plus_couverture_neuve: 97140
+  fourchette: [61056, 118832]
+
+occupant:                       # locataire du bâtiment - identifié via le devis de couverture
+  denomination: "DELBES SAS"
+  activite: "Couverture / Étanchéité - RGE Qualibat"
+  siret: "42728050800024"
+  capital_eur: 150000
+  adresse: "35 rue de la Ferronnerie, ZA de Bel-Air, 12000 Rodez"
+  telephone: "05 65 42 53 50"
+  email: "contact@delbes-aveyron.fr"
+  contact: "LEGRUX Frédéric"
+  lien_avec_proprietaire: "À CONFIRMER - même patronyme, devis adressé à Jacques DELBÈS"
+  interet: "PISTE N°1 POUR LE PRM : c'est l'occupant, donc le titulaire du contrat d'électricité"

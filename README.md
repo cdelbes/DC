@@ -57,6 +57,8 @@ Un **business plan chiffré** couvrant :
 | `documents/Mandat-Enedis-PRE-REMPLI.pdf` | ⭐ **Mandat Enedis prêt à signer** — champs pré-remplis, cases cochées |
 | `docs/27-apres-conversation-pere-recalage.md` | ⭐ **Recalage après la conversation** — valorisation notariale 400-650 k€, le « ×2 » à corriger, piste réhabilitation |
 | `docs/28-analyse-documents-proprietaire.md` | ⭐ **Analyse des documents du propriétaire** — amiante limité, pas de PPRi, bâtiment avec bureaux |
+| `docs/29-apres-appel-enedis-preparation-rdv.md` | ⭐ **Après l'appel Enedis** : préparation du RDV sur site (12 questions), périmètre du poste de livraison vs transfo, cibles marché 2 MW |
+| `docs/30-passif-chiffre-kbis-assainissement-amiante.md` | ⭐ **Le passif chiffré** : Kbis à jour, assainissement NON CONFORME (21,7 k€ dus), toiture amiantée 518 m² (97 k€ TTC) |
 | `documents/Mandat-Enedis-SIGNE-COMPLET.pdf` | ✅ **Mandat signé** (13/08/2026) — fusionné, prêt pour Enedis |
 | `analyse/nc_model_sensibilites.py` | Reconstruction du modèle Next Compute + tests de sensibilité (reproduit le fichier à l'euro près) |
 | `deck/Deck-Foncier-Bel-Air.pptx` | **Deck de négociation** (présentation au propriétaire) |

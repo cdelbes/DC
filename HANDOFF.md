@@ -89,7 +89,7 @@ mettre en risque la relation familiale.
 | Surface chauffée (bureaux) | **154 m²** · DPE 192 kWhEP/m².an · 6 kg éqCO₂/m².an |
 | Étage | entrée, accueil, 3 bureaux, archives, salle de réunion, réserve |
 | RDC | WC, magasin, stockage, dépôt |
-| **Amiante** | **UN SEUL matériau** : couverture plaques fibres-ciment, zone travail RDC Dépôt. **Liste B, classement EP (évaluation périodique) — AUCUN retrait obligatoire.** Le reste de la couverture est en bacs acier non amiantés. |
+| **Amiante** | Couverture plaques fibres-ciment. **Liste B, classement EP — aucun retrait obligatoire *aujourd'hui*.** ⚠️ Mais le devis DELBES SAS chiffre **518,50 m² à déposer = toute la toiture** : **32,8 k€ HT** le retrait seul, **97 140 € TTC** avec couverture neuve isolée. Retrait **obligatoire dès qu'on touche au toit**. *(doc 30 — corrige le doc 28)* |
 | Termites | absence |
 | Démolition | **non prévue** — la **piste réhabilitation est l'hypothèse de tête** |
 
@@ -110,8 +110,11 @@ niveau 3 (à traiter en ventilation, enjeu faible pour un DC) · pas de débrous
 hypothèse prudente). ⚠️ Ces capacités sont **indicatives** (carte mensuelle, hors file
 d'attente) et **non réservées**.
 
-- **PRM/PDL : toujours inconnu.** Le locataire est en congés. Piste : le diagnostiqueur
-  **Lilian GAU, Cabinet AGENDA, 06 88 94 97 77**, ou une facture d'électricité du dépôt.
+- **PRM/PDL : toujours inconnu.** 🎯 **Meilleure piste : DELBES SAS**, l'entreprise de
+  couverture/étanchéité **occupante du bâtiment** (SIRET 427 280 508 00024) — c'est elle qui
+  détient le contrat d'électricité. **05 65 42 53 50 · contact@delbes-aveyron.fr ·
+  LEGRUX Frédéric**. Piste secondaire : le diagnostiqueur Lilian GAU, Cabinet AGENDA,
+  06 88 94 97 77.
 - Consommation actuelle du site : **15 595 kWh en 2025**, abonnement 144 € → site en **BT**.
 - **Caparéseau ne sert à rien ici** : il ne cartographie que l'**injection**, pas le
   soutirage.
@@ -130,11 +133,10 @@ point bloquant (doc 11).
 | Dénomination | **SCI JIDÉ** |
 | SIREN / SIRET | **839 361 771** / **839 361 771 00026** |
 | RCS | Rodez, immatriculée le **04/05/2018** · capital **1 000 €** |
-| Siège | 35 rue de la Ferronnerie, ZA de Bel Air, 12000 Rodez |
-| Correspondance | Le Grand Balcon, 9 rue de Paraire, 12000 Rodez |
+| Siège | **9 rue Paraire, Le Grand Balcon, 12000 Rodez** *(le 35 rue de la Ferronnerie est un bien LOUÉ, pas un établissement — corrigé par le Kbis 2026)* |
 | Gérant | **DELBÈS Jacques, Gérard, Pierre-Marie**, né le 15/08/1961 à Rodez |
 | Objet social | acquisition, administration et **exploitation par bail, location ou autrement** → *la SCI est statutairement outillée pour louer, aucun changement d'objet nécessaire* |
-| Kbis fourni | **à jour au 01/05/2019 → PÉRIMÉ.** Enedis exige < 3 mois. À redemander sur `monidenum.fr` (gratuit pour le gérant) |
+| Kbis | ✅ **à jour au 16/08/2026** (`documents/Kbis-SCI-JIDE-2026-08-16.pdf`), code de vérification `kjVyFadFxT` |
 
 ### Chiffres financiers connus
 
@@ -145,7 +147,8 @@ point bloquant (doc 11).
 | Prix de transaction probable | **450-550 k€** (650 k€ est un prix d'affichage) |
 | **Ancien loyer** | **3 500 €/mois** (42 000 €/an), qualifié par lui de « très bas » |
 | Offre BTP | ⚠️ **TOUJOURS INCONNUE — c'est la seule vraie référence à battre** |
-| Devis assainissement en attente | **18 076 € HT / 21 691 € TTC** (PUECHOULTRES n° 26070129 du 29/07/2026, validité 30/09/2026) — **caractère obligatoire non clarifié** |
+| **Assainissement** | 🔴 **OBLIGATOIRE** — contrôle Veolia/Rodez Agglo du 25/06/2026 : **NON CONFORME**, délai de mise en conformité **immédiat**. Devis PUECHOULTRES **18 076 € HT / 21 691 € TTC** |
+| **Passif documenté total** | **61 000 à 118 800 € TTC** (assainissement + amiante) → le prix de transaction réaliste tombe à **530-555 k€** |
 
 ### Mandat Enedis ✅
 
@@ -242,6 +245,8 @@ aplatis, page 5 = page signée scannée).
 | 26 | `mandat-enedis-et-option-location` | Mode d'emploi du mandat + analyse de l'option location |
 | 27 | ⭐ `apres-conversation-pere-recalage` | Recalage post-déjeuner : 400-650 k€, « ×2 » à corriger, piste réhabilitation |
 | 28 | ⭐ `analyse-documents-proprietaire` | Amiante limité, pas de PPRi, bâtiment avec bureaux |
+| 29 | ⭐ `apres-appel-enedis-preparation-rdv` | Préparation du RDV Enedis (12 questions) ; le transfo n'est PAS ton périmètre ; cibles marché 2 MW (nLighten, PRA toulousain) |
+| 30 | ⭐ `passif-chiffre-kbis-assainissement-amiante` | Kbis OK ; assainissement **non conforme, délai immédiat** ; toiture amiantée sur 518 m² ; passif 61-119 k€ |
 
 ### Autres livrables
 
@@ -263,7 +268,7 @@ aplatis, page 5 = page signée scannée).
 | # | Erreur | Réalité | Corrigé dans |
 |---|---|---|---|
 | 1 | Bâtiment valorisé à **200-400 €/m²** → valeur totale 215-380 k€ | L'entrepôt à Rodez tourne à **~855 €/m²** → **400-650 k€** confirmés par notaire | doc 27 |
-| 2 | Amiante estimé à **25-55 k€**, toute la toiture | **Un seul matériau**, liste B, classement **EP**, **aucun retrait obligatoire** | doc 28 |
+| 2 | Amiante estimé à **25-55 k€**, toute la toiture — puis **révisé à la baisse à tort** au doc 28 | **L'estimation initiale était bonne** : devis réel **32,8 k€ HT / 39,4 k€ TTC** pour le retrait seul, sur **518,50 m² = toute la toiture**. Le classement EP (aucun retrait exigé aujourd'hui) reste juste. ⚠️ **Ne pas sur-corriger dans un sens ni dans l'autre.** | doc 30 |
 | 3 | Supposé un **hangar nu de 900-1 100 m²** | **487 m² d'emprise**, bâtiment industriel **avec étage de bureaux** | doc 28 |
 | 4 | **UltraEdge** présenté comme cible n° 1 | Leur modèle **évite délibérément le greenfield** — mauvaise cible pour vendre du terrain | doc 19 |
 | 5 | Multiple RTB **×2** annoncé au père | **×1,23 à ×1,6** sur une base de 650 k€ (méthode coût de remplacement) | docs 14, 27 |
@@ -299,8 +304,7 @@ erreur coûte de la crédibilité familiale, qui est l'actif le plus précieux d
 
 ### 🔜 Actions immédiates
 
-1. **Kbis récent de la SCI** (< 3 mois) — `monidenum.fr`, gratuit pour le gérant.
-   **Bloquant pour Enedis.**
+1. ~~Kbis récent~~ ✅ **fait** (16/08/2026).
 2. **Déposer la demande Enedis** via l'entrée **« Un site industriel en HTA »** sur
    `raccordement-entreprise-enedis.fr`.
    - La pré-étude gratuite **n'apparaît pas** sur le parcours consommateur HTA — c'est
@@ -310,8 +314,7 @@ erreur coûte de la crédibilité familiale, qui est l'actif le plus précieux d
      acompte 5-10 %, 3 mois de validité).
    - Demander **deux paliers : 1 MW et 2 MW**.
    - Pièces : mandat signé, Kbis récent, plan de masse.
-3. **Récupérer le PRM** (locataire en congés ; piste Lilian GAU, Cabinet AGENDA,
-   06 88 94 97 77).
+3. **Récupérer le PRM** → appeler **DELBES SAS, 05 65 42 53 50**, l'occupant du bâtiment.
 4. **Envoyer les e-mails** Hadès Patrimoine et FullSave — ⚠️ adresses **non vérifiées**,
    numéro de téléphone en **placeholder** à compléter. Relance prévue **25-28 août**.
 5. **Appel Datalok le 26 août** — question n° 1 : **convertibilité du bâtiment** ;
@@ -322,7 +325,10 @@ erreur coûte de la crédibilité familiale, qui est l'actif le plus précieux d
 
 ### ❓ Questions ouvertes
 
-- Les travaux d'assainissement (21,7 k€ TTC) sont-ils **obligatoires ou volontaires** ?
+- ~~Assainissement obligatoire ?~~ ✅ **tranché : obligatoire, délai immédiat**
+- Les **518,50 m²** du devis amiante couvrent-ils toute la toiture ? *(incohérence avec le diagnostic — doc 30 §3)*
+- Quel est le **lien exact entre Jacques DELBÈS et DELBES SAS** (l'occupant) ?
+- La **redevance d'assainissement** a-t-elle déjà été majorée ?
 - Le bâtiment est-il **convertible** en data center, ou faut-il du neuf ?
 - **Qui paie le raccordement** dans un montage réaliste ?
 - Zonage PLU exact et statut **AFR/ZRR** → contacter **Rodez Agglomération**
