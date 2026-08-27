@@ -62,3 +62,4 @@ Un **business plan chiffré** couvrant :
 | `docs/31-benchmark-developpeurs-amont-powered-land.md` | ⭐ **Benchmark des acteurs de l'amont** : powered land, contractants généraux, modulaire, AMO, opérateurs edge, marketplaces — qui achète vraiment, qui informe |
 | `docs/32-brief-appel-datalok.md` | ⭐ **Brief d'appel Datalok (26/08)** : ouverture, fiche site, questions par priorité, objections, ce qu'il ne faut pas dire |
 | `docs/33-compte-rendu-datalok-26-08.md` | ⭐ **CR Datalok** : 2 MW « petit mais faisable », Aveyron non bloquant, ⭐ **la demande doit être LOCALE** ; analyse de la prestation à 4 000 € |
+| `documents/HANDOFF-DC-Rodez-2026-08-27.pdf` | ⭐ **Hand-off PDF** (6 p.) — contexte complet + appel Datalok + 8 sujets à brainstormer. Conçu pour être transmis à un assistant IA en conversation vocale. Régénérable via `scripts/build_handoff_pdf.py` |
